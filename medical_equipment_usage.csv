@@ -1,0 +1,901 @@
+equipment_id,equipment_name,department,operator_id,patient_id,usage_start_time,usage_end_time,status,maintenance_required,last_maintenance_date,breakdown,cost_per_hour,usage_type,shift,day_of_week
+E1000,ECG,Radiology,O2000,P5000,11-01-2025 10.00,11-01-2025 14.00,Used,Yes,17-12-2024,No,2052,Scheduled,Morning,Saturday
+E1001,CT Scan,Radiology,O2001,P5001,01-02-2025 14.00,01-02-2025 19.00,Used,No,25-01-2025,No,1257,Emergency,Evening,Saturday
+E1002,Ventilator,ICU,O2002,P5002,18-02-2025 12.00,18-02-2025 16.00,Used,No,05-01-2025,No,3310,Emergency,Morning,Tuesday
+E1003,CT Scan,Cardiology,O2003,P5003,24-02-2025 1.00,24-02-2025 3.00,Maintenance,No,21-12-2024,No,1604,Emergency,Night,Monday
+E1004,CT Scan,ICU,O2004,P5004,01-03-2025 23.00,02-03-2025 3.00,Idle,No,08-12-2024,Yes,3959,Emergency,Evening,Saturday
+E1005,X-Ray,Radiology,O2005,P5005,14-02-2025 6.00,14-02-2025 13.00,Idle,Yes,05-12-2024,No,4492,Scheduled,Morning,Friday
+E1006,Ventilator,ICU,O2006,P5006,03-02-2025 21.00,03-02-2025 22.00,Idle,No,26-12-2024,No,703,Scheduled,Evening,Monday
+E1007,Ventilator,Radiology,O2007,P5007,02-01-2025 4.00,02-01-2025 6.00,Used,No,16-12-2024,No,3275,Emergency,Night,Thursday
+E1008,Ventilator,ICU,O2008,P5008,09-02-2025 21.00,10-02-2025 3.00,Used,No,05-01-2025,No,2832,Scheduled,Evening,Sunday
+E1009,CT Scan,Radiology,O2009,P5009,20-01-2025 20.00,20-01-2025 22.00,Maintenance,No,28-12-2024,No,2492,Emergency,Evening,Monday
+E1010,ECG,Radiology,O2010,P5010,14-01-2025 5.00,14-01-2025 10.00,Used,No,23-01-2025,No,2743,Scheduled,Night,Tuesday
+E1011,Ventilator,Radiology,O2011,P5011,11-01-2025 4.00,11-01-2025 7.00,Used,No,29-12-2024,No,806,Emergency,Night,Saturday
+E1012,Ultrasound,Cardiology,O2012,P5012,01-02-2025 3.00,01-02-2025 9.00,Used,Yes,16-01-2025,No,2187,Scheduled,Night,Saturday
+E1013,CT Scan,ICU,O2013,P5013,30-01-2025 0.00,30-01-2025 2.00,Used,No,12-12-2024,Yes,4609,Emergency,Night,Thursday
+E1014,X-Ray,ICU,O2014,P5014,12-01-2025 7.00,12-01-2025 13.00,Used,No,06-01-2025,No,2360,Scheduled,Morning,Sunday
+E1015,ECG,ICU,O2015,P5015,02-03-2025 23.00,03-03-2025 5.00,Idle,Yes,30-12-2024,No,2461,Scheduled,Evening,Sunday
+E1016,Ultrasound,Radiology,O2016,P5016,22-02-2025 14.00,22-02-2025 20.00,Used,Yes,23-12-2024,No,1222,Scheduled,Evening,Saturday
+E1017,Ultrasound,ICU,O2017,P5017,16-01-2025 16.00,16-01-2025 19.00,Used,No,16-12-2024,Yes,1279,Emergency,Evening,Thursday
+E1018,X-Ray,ICU,O2018,P5018,12-01-2025 1.00,12-01-2025 8.00,Maintenance,Yes,14-12-2024,No,1028,Emergency,Night,Sunday
+E1019,ECG,Radiology,O2019,P5019,08-02-2025 13.00,08-02-2025 17.00,Used,No,10-12-2024,No,843,Emergency,Morning,Saturday
+E1020,CT Scan,Emergency,O2020,P5020,08-02-2025 8.00,08-02-2025 14.00,Used,No,07-12-2024,No,4286,Scheduled,Morning,Saturday
+E1021,MRI,Radiology,O2021,P5021,27-02-2025 14.00,27-02-2025 15.00,Used,No,14-01-2025,No,4182,Emergency,Evening,Thursday
+E1022,ECG,ICU,O2022,P5022,15-01-2025 3.00,15-01-2025 10.00,Idle,No,21-01-2025,No,708,Scheduled,Night,Wednesday
+E1023,X-Ray,Radiology,O2023,,17-01-2025 4.00,17-01-2025 9.00,Maintenance,No,29-01-2025,No,3906,Scheduled,Night,Friday
+E1024,Ultrasound,Emergency,O2024,P5024,25-01-2025 0.00,25-01-2025 3.00,Used,No,06-01-2025,No,1811,Scheduled,Night,Saturday
+E1025,CT Scan,Radiology,O2025,P5025,01-01-2025 2.00,01-01-2025 4.00,Idle,Yes,29-12-2024,No,2799,Scheduled,Night,Wednesday
+E1026,ECG,ICU,O2026,P5026,02-03-2025 12.00,02-03-2025 15.00,Used,No,03-12-2024,No,3836,Emergency,Morning,Sunday
+E1027,MRI,Emergency,O2027,P5027,18-02-2025 13.00,18-02-2025 15.00,Maintenance,No,15-12-2024,No,2447,Emergency,Morning,Tuesday
+E1028,MRI,Cardiology,O2028,P5028,16-01-2025 15.00,16-01-2025 18.00,Idle,No,05-01-2025,No,1419,Scheduled,Evening,Thursday
+E1029,Ventilator,ICU,O2029,P5029,14-01-2025 11.00,14-01-2025 13.00,Idle,,16-01-2025,No,2544,Scheduled,Morning,Tuesday
+E1030,Ventilator,Emergency,O2030,P5030,07-01-2025 1.00,07-01-2025 7.00,Used,No,15-01-2025,No,918,Emergency,Night,Tuesday
+E1031,X-Ray,Emergency,O2031,P5031,13-01-2025 4.00,13-01-2025 8.00,Maintenance,Yes,21-01-2025,No,2249,Emergency,Night,Monday
+E1032,ECG,Cardiology,O2032,P5032,18-01-2025 23.00,19-01-2025 1.00,Idle,Yes,19-12-2024,No,3342,Scheduled,Evening,Saturday
+E1033,ECG,Radiology,O2033,,30-01-2025 8.00,30-01-2025 10.00,Used,No,13-12-2024,No,1599,Emergency,Morning,Thursday
+E1034,Ultrasound,Radiology,O2034,P5034,09-02-2025 12.00,09-02-2025 13.00,Idle,No,11-01-2025,No,3892,Scheduled,Morning,Sunday
+E1035,Ultrasound,ICU,O2035,P5035,25-01-2025 8.00,25-01-2025 10.00,Used,Yes,21-12-2024,Yes,3272,Scheduled,Morning,Saturday
+E1036,Ultrasound,Cardiology,O2036,P5036,17-01-2025 14.00,17-01-2025 15.00,Idle,Yes,06-01-2025,No,2980,Emergency,Evening,Friday
+E1037,Ventilator,Radiology,O2037,P5037,04-02-2025 0.00,04-02-2025 5.00,Used,Yes,27-12-2024,No,2045,Emergency,Night,Tuesday
+E1038,ECG,Cardiology,O2038,P5038,26-02-2025 23.00,27-02-2025 5.00,Idle,No,24-01-2025,No,1570,Emergency,Evening,Wednesday
+E1039,ECG,Radiology,O2039,,10-02-2025 3.00,10-02-2025 4.00,Used,Yes,21-01-2025,Yes,2350,Scheduled,Night,Monday
+E1040,MRI,Emergency,O2040,P5040,18-02-2025 11.00,18-02-2025 15.00,Used,Yes,29-12-2024,No,4698,Scheduled,Morning,Tuesday
+E1041,Ventilator,Radiology,O2041,P5041,08-01-2025 18.00,09-01-2025 1.00,Used,No,20-12-2024,No,3439,Scheduled,Evening,Wednesday
+E1042,CT Scan,Cardiology,O2042,P5042,03-01-2025 12.00,03-01-2025 18.00,Used,,25-12-2024,No,2403,Scheduled,Morning,Friday
+E1043,Ventilator,Emergency,O2043,P5043,09-02-2025 2.00,09-02-2025 3.00,Used,No,06-12-2024,No,1178,Scheduled,Night,Sunday
+E1044,CT Scan,Emergency,O2044,P5044,28-02-2025 11.00,28-02-2025 17.00,Used,No,05-01-2025,No,1488,Emergency,Morning,Friday
+E1045,MRI,Emergency,O2045,P5045,30-01-2025 13.00,30-01-2025 19.00,Used,,02-12-2024,No,2975,Emergency,Morning,Thursday
+E1046,X-Ray,Cardiology,O2046,P5046,03-02-2025 14.00,03-02-2025 20.00,Used,No,22-12-2024,No,2107,Scheduled,Evening,Monday
+E1047,ECG,ICU,O2047,P5047,02-03-2025 23.00,03-03-2025 4.00,Used,No,01-01-2025,No,3369,Emergency,Evening,Sunday
+E1048,MRI,ICU,O2048,P5048,25-02-2025 22.00,26-02-2025 2.00,Idle,No,16-12-2024,No,2002,Emergency,Evening,Tuesday
+E1049,ECG,ICU,O2049,P5049,25-02-2025 5.00,25-02-2025 8.00,Used,No,18-12-2024,No,2289,Scheduled,Night,Tuesday
+E1050,Ultrasound,Cardiology,O2050,P5050,26-02-2025 23.00,27-02-2025 2.00,Maintenance,No,05-12-2024,Yes,1925,Scheduled,Evening,Wednesday
+E1051,X-Ray,Emergency,O2051,P5051,01-01-2025 10.00,01-01-2025 11.00,Idle,,23-01-2025,No,2940,Scheduled,Morning,Wednesday
+E1052,X-Ray,ICU,O2052,P5052,15-02-2025 5.00,15-02-2025 11.00,Used,Yes,05-01-2025,No,2542,Scheduled,Night,Saturday
+E1053,MRI,Cardiology,O2053,P5053,10-01-2025 9.00,10-01-2025 10.00,Used,No,30-12-2024,No,1778,Emergency,Morning,Friday
+E1054,X-Ray,ICU,O2054,P5054,19-02-2025 0.00,19-02-2025 5.00,Idle,No,14-01-2025,No,3094,Scheduled,Night,Wednesday
+E1055,CT Scan,Radiology,O2055,P5055,24-01-2025 11.00,24-01-2025 16.00,Used,No,19-12-2024,No,2936,Emergency,Morning,Friday
+E1056,X-Ray,ICU,O2056,P5056,02-02-2025 3.00,02-02-2025 5.00,Used,No,23-12-2024,No,4303,Scheduled,Night,Sunday
+E1057,ECG,ICU,O2057,P5057,25-02-2025 13.00,25-02-2025 18.00,Used,Yes,03-01-2025,Yes,2705,Scheduled,Morning,Tuesday
+E1058,ECG,Emergency,O2058,P5058,06-02-2025 20.00,06-02-2025 22.00,Idle,No,13-12-2024,No,1527,Emergency,Evening,Thursday
+E1059,ECG,Cardiology,O2059,P5059,22-02-2025 18.00,22-02-2025 22.00,Used,No,12-01-2025,No,4039,Scheduled,Evening,Saturday
+E1060,ECG,Emergency,O2060,P5060,27-02-2025 21.00,27-02-2025 22.00,Used,No,23-01-2025,No,3983,Emergency,Evening,Thursday
+E1061,CT Scan,Emergency,O2061,P5061,26-02-2025 9.00,26-02-2025 16.00,Maintenance,No,29-12-2024,No,2741,Scheduled,Morning,Wednesday
+E1062,Ventilator,Emergency,O2062,P5062,17-02-2025 2.00,17-02-2025 6.00,Idle,No,05-01-2025,Yes,3265,Scheduled,Night,Monday
+E1063,Ultrasound,Emergency,O2063,P5063,10-01-2025 9.00,10-01-2025 14.00,Used,No,22-12-2024,Yes,1673,Scheduled,Morning,Friday
+E1064,MRI,Emergency,O2064,P5064,04-02-2025 8.00,04-02-2025 12.00,Used,,21-01-2025,No,3730,Scheduled,Morning,Tuesday
+E1065,ECG,ICU,O2065,,10-01-2025 1.00,10-01-2025 5.00,Idle,No,21-01-2025,No,3850,Emergency,Night,Friday
+E1066,X-Ray,Emergency,O2066,P5066,09-02-2025 0.00,09-02-2025 4.00,Used,No,16-01-2025,No,903,Scheduled,Night,Sunday
+E1067,ECG,Emergency,O2067,P5067,01-02-2025 8.00,01-02-2025 13.00,Used,No,05-01-2025,No,3225,Scheduled,Morning,Saturday
+E1068,X-Ray,Cardiology,O2068,P5068,22-01-2025 1.00,22-01-2025 8.00,Used,No,09-12-2024,No,3882,Emergency,Night,Wednesday
+E1069,Ultrasound,Radiology,O2069,P5069,11-01-2025 18.00,12-01-2025 0.00,Maintenance,Yes,08-01-2025,No,4663,Scheduled,Evening,Saturday
+E1070,Ultrasound,ICU,O2070,P5070,03-01-2025 5.00,03-01-2025 9.00,Used,No,20-01-2025,No,587,Scheduled,Night,Friday
+E1071,Ultrasound,ICU,O2071,P5071,14-02-2025 14.00,14-02-2025 16.00,Idle,No,19-12-2024,No,1658,Emergency,Evening,Friday
+E1072,X-Ray,ICU,O2072,P5072,31-01-2025 6.00,31-01-2025 11.00,Idle,No,07-01-2025,No,4773,Scheduled,Morning,Friday
+E1073,ECG,Emergency,O2073,P5073,29-01-2025 16.00,29-01-2025 20.00,Used,No,06-12-2024,No,3357,Emergency,Evening,Wednesday
+E1074,Ultrasound,Emergency,O2074,,16-02-2025 18.00,17-02-2025 1.00,Used,No,21-01-2025,No,1881,Scheduled,Evening,Sunday
+E1075,CT Scan,Emergency,O2075,P5075,13-02-2025 11.00,13-02-2025 17.00,Used,Yes,16-01-2025,No,2564,Emergency,Morning,Thursday
+E1076,X-Ray,Cardiology,O2076,P5076,18-01-2025 10.00,18-01-2025 15.00,Used,No,15-12-2024,No,2874,Scheduled,Morning,Saturday
+E1077,X-Ray,Radiology,O2077,P5077,29-01-2025 17.00,29-01-2025 20.00,Used,No,26-01-2025,No,817,Scheduled,Evening,Wednesday
+E1078,ECG,Emergency,O2078,P5078,05-02-2025 9.00,05-02-2025 15.00,Idle,No,20-12-2024,No,2002,Scheduled,Morning,Wednesday
+E1079,X-Ray,Radiology,O2079,P5079,03-01-2025 13.00,03-01-2025 15.00,Used,Yes,09-12-2024,No,2542,Scheduled,Morning,Friday
+E1080,X-Ray,Cardiology,O2080,P5080,18-02-2025 16.00,18-02-2025 20.00,Idle,No,01-01-2025,No,2522,Scheduled,Evening,Tuesday
+E1081,Ultrasound,ICU,O2081,P5081,09-01-2025 23.00,10-01-2025 6.00,Used,No,04-12-2024,No,618,Scheduled,Evening,Thursday
+E1082,ECG,Emergency,O2082,P5082,01-01-2025 2.00,01-01-2025 5.00,Used,Yes,19-01-2025,No,1209,Emergency,Night,Wednesday
+E1083,Ultrasound,Radiology,O2083,P5083,07-01-2025 15.00,07-01-2025 22.00,Used,No,18-12-2024,No,4057,Scheduled,Evening,Tuesday
+E1084,Ultrasound,Radiology,O2084,P5084,02-02-2025 12.00,02-02-2025 15.00,Used,No,05-12-2024,No,4640,Scheduled,Morning,Sunday
+E1085,ECG,Emergency,O2085,P5085,17-02-2025 15.00,17-02-2025 20.00,Idle,Yes,20-12-2024,No,4909,Scheduled,Evening,Monday
+E1086,MRI,ICU,O2086,P5086,07-02-2025 4.00,07-02-2025 7.00,Used,No,23-12-2024,No,3750,Scheduled,Night,Friday
+E1087,Ultrasound,ICU,O2087,P5087,16-02-2025 8.00,16-02-2025 10.00,Used,No,11-12-2024,Yes,917,Scheduled,Morning,Sunday
+E1088,CT Scan,ICU,O2088,P5088,14-01-2025 16.00,14-01-2025 18.00,Used,No,06-01-2025,No,3103,Scheduled,Evening,Tuesday
+E1089,CT Scan,Cardiology,O2089,P5089,25-01-2025 3.00,25-01-2025 4.00,Used,No,22-12-2024,No,4354,Scheduled,Night,Saturday
+E1090,X-Ray,Radiology,O2090,P5090,27-02-2025 12.00,27-02-2025 14.00,Used,Yes,27-01-2025,No,1601,Emergency,Morning,Thursday
+E1091,CT Scan,Radiology,O2091,P5091,23-02-2025 18.00,24-02-2025 0.00,Used,Yes,04-12-2024,No,4921,Scheduled,Evening,Sunday
+E1092,X-Ray,Radiology,O2092,P5092,09-02-2025 15.00,09-02-2025 18.00,Maintenance,Yes,29-12-2024,No,3928,Scheduled,Evening,Sunday
+E1093,MRI,Cardiology,O2093,P5093,26-02-2025 2.00,26-02-2025 4.00,Used,,13-01-2025,No,2761,Scheduled,Night,Wednesday
+E1094,ECG,Radiology,O2094,P5094,27-01-2025 10.00,27-01-2025 15.00,Idle,No,03-01-2025,Yes,4669,Scheduled,Morning,Monday
+E1095,ECG,Cardiology,O2095,P5095,11-02-2025 3.00,11-02-2025 10.00,Used,No,13-12-2024,No,4134,Emergency,Night,Tuesday
+E1096,ECG,ICU,O2096,P5096,20-02-2025 18.00,21-02-2025 1.00,Used,No,11-01-2025,No,1008,Scheduled,Evening,Thursday
+E1097,CT Scan,Emergency,O2097,P5097,08-02-2025 8.00,08-02-2025 9.00,Used,No,09-12-2024,No,2879,Scheduled,Morning,Saturday
+E1098,MRI,Radiology,O2098,P5098,31-01-2025 17.00,01-02-2025 0.00,Used,Yes,11-01-2025,No,3664,Emergency,Evening,Friday
+E1099,CT Scan,Radiology,O2099,P5099,26-02-2025 11.00,26-02-2025 14.00,Used,No,31-12-2024,No,1187,Scheduled,Morning,Wednesday
+E1100,CT Scan,ICU,O2100,P5100,08-01-2025 1.00,08-01-2025 2.00,Used,No,07-12-2024,No,1792,Emergency,Night,Wednesday
+E1101,MRI,Emergency,O2101,,22-01-2025 16.00,22-01-2025 19.00,Used,Yes,04-12-2024,No,4405,Scheduled,Evening,Wednesday
+E1102,MRI,Cardiology,O2102,P5102,03-03-2025 22.00,04-03-2025 3.00,Used,No,19-12-2024,No,3575,Emergency,Evening,Monday
+E1103,MRI,Emergency,O2103,P5103,02-01-2025 15.00,02-01-2025 16.00,Used,,11-01-2025,No,3709,Scheduled,Evening,Thursday
+E1104,MRI,ICU,O2104,P5104,23-02-2025 12.00,23-02-2025 16.00,Maintenance,No,30-12-2024,No,824,Scheduled,Morning,Sunday
+E1105,ECG,ICU,O2105,P5105,01-03-2025 2.00,01-03-2025 8.00,Used,,31-12-2024,No,2493,Scheduled,Night,Saturday
+E1106,Ventilator,Emergency,O2106,P5106,09-02-2025 18.00,10-02-2025 0.00,Used,No,04-01-2025,No,4476,Scheduled,Evening,Sunday
+E1107,Ventilator,Cardiology,O2107,P5107,22-02-2025 1.00,22-02-2025 4.00,Used,No,26-01-2025,No,3270,Scheduled,Night,Saturday
+E1108,MRI,Cardiology,O2108,P5108,10-02-2025 23.00,11-02-2025 6.00,Used,No,21-12-2024,No,4872,Emergency,Evening,Monday
+E1109,Ventilator,Radiology,O2109,P5109,17-02-2025 19.00,17-02-2025 23.00,Used,No,31-12-2024,Yes,3083,Emergency,Evening,Monday
+E1110,Ventilator,Cardiology,O2110,P5110,10-02-2025 14.00,10-02-2025 15.00,Used,,19-12-2024,No,4057,Scheduled,Evening,Monday
+E1111,MRI,Emergency,O2111,P5111,02-01-2025 13.00,02-01-2025 17.00,Used,No,31-12-2024,No,4087,Emergency,Morning,Thursday
+E1112,Ventilator,ICU,O2112,P5112,14-01-2025 15.00,14-01-2025 19.00,Used,No,22-01-2025,No,651,Scheduled,Evening,Tuesday
+E1113,CT Scan,Radiology,O2113,P5113,23-02-2025 2.00,23-02-2025 9.00,Used,No,01-01-2025,No,1454,Scheduled,Night,Sunday
+E1114,X-Ray,Radiology,O2114,P5114,19-02-2025 23.00,20-02-2025 0.00,Used,No,02-12-2024,No,4854,Scheduled,Evening,Wednesday
+E1115,X-Ray,ICU,O2115,P5115,08-02-2025 1.00,08-02-2025 6.00,Used,No,28-01-2025,Yes,2871,Scheduled,Night,Saturday
+E1116,MRI,Cardiology,O2116,P5116,19-01-2025 21.00,20-01-2025 4.00,Used,Yes,21-01-2025,No,1691,Emergency,Evening,Sunday
+E1117,ECG,ICU,O2117,P5117,02-01-2025 12.00,02-01-2025 16.00,Used,No,10-12-2024,Yes,1187,Scheduled,Morning,Thursday
+E1118,MRI,Cardiology,O2118,P5118,25-02-2025 19.00,25-02-2025 23.00,Idle,No,02-12-2024,No,809,Scheduled,Evening,Tuesday
+E1119,ECG,ICU,O2119,P5119,10-02-2025 12.00,10-02-2025 17.00,Used,No,02-12-2024,Yes,2002,Scheduled,Morning,Monday
+E1120,X-Ray,Emergency,O2120,P5120,03-02-2025 3.00,03-02-2025 7.00,Used,Yes,29-01-2025,No,3627,Scheduled,Night,Monday
+E1121,MRI,Cardiology,O2121,P5121,10-02-2025 12.00,10-02-2025 16.00,Used,No,24-12-2024,No,3867,Emergency,Morning,Monday
+E1122,Ultrasound,Emergency,O2122,P5122,25-01-2025 16.00,25-01-2025 20.00,Maintenance,No,17-12-2024,No,3895,Scheduled,Evening,Saturday
+E1123,CT Scan,Radiology,O2123,P5123,17-02-2025 9.00,17-02-2025 15.00,Used,No,01-01-2025,No,1313,Scheduled,Morning,Monday
+E1124,Ventilator,ICU,O2124,P5124,14-02-2025 7.00,14-02-2025 14.00,Used,No,16-12-2024,Yes,1345,Scheduled,Morning,Friday
+E1125,ECG,Radiology,O2125,P5125,25-02-2025 4.00,25-02-2025 6.00,Used,No,16-12-2024,No,1664,Emergency,Night,Tuesday
+E1126,Ultrasound,Radiology,O2126,P5126,10-01-2025 7.00,10-01-2025 14.00,Used,No,15-01-2025,No,2267,Scheduled,Morning,Friday
+E1127,Ventilator,Radiology,O2127,P5127,14-01-2025 5.00,14-01-2025 10.00,Used,No,08-01-2025,No,854,Scheduled,Night,Tuesday
+E1128,Ventilator,Radiology,O2128,P5128,15-01-2025 12.00,15-01-2025 16.00,Used,Yes,22-01-2025,No,2372,Emergency,Morning,Wednesday
+E1129,MRI,ICU,O2129,P5129,05-01-2025 18.00,06-01-2025 1.00,Idle,No,31-12-2024,No,2524,Scheduled,Evening,Sunday
+E1130,Ventilator,Radiology,O2130,P5130,30-01-2025 1.00,30-01-2025 7.00,Used,Yes,12-01-2025,Yes,3317,Scheduled,Night,Thursday
+E1131,CT Scan,ICU,O2131,P5131,26-02-2025 2.00,26-02-2025 7.00,Idle,No,24-12-2024,No,4332,Scheduled,Night,Wednesday
+E1132,Ultrasound,ICU,O2132,,14-02-2025 7.00,14-02-2025 10.00,Maintenance,Yes,01-12-2024,No,4775,Scheduled,Morning,Friday
+E1133,Ventilator,Emergency,O2133,P5133,02-01-2025 15.00,02-01-2025 22.00,Used,Yes,11-12-2024,No,565,Emergency,Evening,Thursday
+E1134,MRI,Cardiology,O2134,P5134,24-02-2025 16.00,24-02-2025 19.00,Used,Yes,24-01-2025,No,4766,Scheduled,Evening,Monday
+E1135,CT Scan,Cardiology,O2135,P5135,23-02-2025 13.00,23-02-2025 17.00,Used,Yes,21-12-2024,No,4590,Scheduled,Morning,Sunday
+E1136,X-Ray,ICU,O2136,P5136,09-01-2025 23.00,10-01-2025 5.00,Used,No,04-12-2024,No,3021,Scheduled,Evening,Thursday
+E1137,Ultrasound,Emergency,O2137,P5137,18-02-2025 18.00,19-02-2025 0.00,Used,No,07-12-2024,Yes,3081,Scheduled,Evening,Tuesday
+E1138,Ventilator,ICU,O2138,P5138,14-01-2025 23.00,15-01-2025 6.00,Maintenance,No,26-12-2024,No,1890,Scheduled,Evening,Tuesday
+E1139,MRI,ICU,O2139,,19-02-2025 15.00,19-02-2025 20.00,Idle,Yes,16-01-2025,No,1630,Emergency,Evening,Wednesday
+E1140,X-Ray,ICU,O2140,P5140,04-01-2025 19.00,05-01-2025 0.00,Used,Yes,19-01-2025,No,2986,Scheduled,Evening,Saturday
+E1141,X-Ray,Emergency,O2141,P5141,15-01-2025 16.00,15-01-2025 22.00,Used,Yes,12-12-2024,No,1334,Scheduled,Evening,Wednesday
+E1142,ECG,Cardiology,O2142,,24-01-2025 18.00,24-01-2025 23.00,Idle,Yes,31-12-2024,No,726,Scheduled,Evening,Friday
+E1143,CT Scan,Emergency,O2143,P5143,03-02-2025 23.00,04-02-2025 5.00,Maintenance,No,17-12-2024,No,4015,Scheduled,Evening,Monday
+E1144,Ventilator,Radiology,O2144,P5144,02-02-2025 12.00,02-02-2025 19.00,Idle,Yes,02-01-2025,No,2943,Scheduled,Morning,Sunday
+E1145,MRI,Emergency,O2145,P5145,16-01-2025 2.00,16-01-2025 4.00,Used,No,11-12-2024,No,1227,Scheduled,Night,Thursday
+E1146,ECG,Emergency,O2146,P5146,24-01-2025 4.00,24-01-2025 10.00,Used,Yes,28-12-2024,No,4186,Emergency,Night,Friday
+E1147,CT Scan,Emergency,O2147,P5147,27-02-2025 0.00,27-02-2025 3.00,Used,Yes,01-01-2025,No,4122,Scheduled,Night,Thursday
+E1148,ECG,Emergency,O2148,P5148,19-02-2025 17.00,19-02-2025 22.00,Used,No,01-12-2024,No,1536,Scheduled,Evening,Wednesday
+E1149,Ultrasound,Cardiology,O2149,P5149,15-01-2025 19.00,16-01-2025 1.00,Used,No,16-01-2025,Yes,2332,Scheduled,Evening,Wednesday
+E1150,CT Scan,Radiology,O2150,P5150,08-01-2025 22.00,09-01-2025 4.00,Used,Yes,28-12-2024,No,3240,Scheduled,Evening,Wednesday
+E1151,CT Scan,Cardiology,O2151,P5151,18-01-2025 13.00,18-01-2025 20.00,Used,,22-01-2025,No,992,Scheduled,Morning,Saturday
+E1152,Ventilator,Cardiology,O2152,P5152,30-01-2025 3.00,30-01-2025 8.00,Used,No,11-01-2025,No,2048,Scheduled,Night,Thursday
+E1153,CT Scan,Emergency,O2153,P5153,01-01-2025 6.00,01-01-2025 8.00,Used,Yes,07-12-2024,No,1643,Scheduled,Morning,Wednesday
+E1154,ECG,ICU,O2154,P5154,06-01-2025 12.00,06-01-2025 19.00,Used,Yes,02-12-2024,No,4457,Scheduled,Morning,Monday
+E1155,CT Scan,ICU,O2155,P5155,24-01-2025 4.00,24-01-2025 6.00,Used,No,11-01-2025,No,3907,Scheduled,Night,Friday
+E1156,Ventilator,Cardiology,O2156,P5156,04-02-2025 9.00,04-02-2025 16.00,Used,No,24-12-2024,No,1139,Scheduled,Morning,Tuesday
+E1157,Ventilator,Cardiology,O2157,P5157,01-02-2025 16.00,01-02-2025 21.00,Used,No,04-12-2024,No,672,Scheduled,Evening,Saturday
+E1158,Ultrasound,Emergency,O2158,P5158,13-02-2025 22.00,13-02-2025 23.00,Idle,No,13-01-2025,No,4854,Scheduled,Evening,Thursday
+E1159,ECG,Cardiology,O2159,P5159,23-01-2025 6.00,23-01-2025 11.00,Used,No,19-12-2024,No,4459,Scheduled,Morning,Thursday
+E1160,X-Ray,Emergency,O2160,P5160,18-01-2025 17.00,18-01-2025 22.00,Used,No,26-12-2024,Yes,1016,Scheduled,Evening,Saturday
+E1161,X-Ray,ICU,O2161,P5161,01-03-2025 1.00,01-03-2025 3.00,Used,No,11-12-2024,No,1022,Scheduled,Night,Saturday
+E1162,CT Scan,ICU,O2162,P5162,28-01-2025 23.00,29-01-2025 1.00,Maintenance,No,09-01-2025,No,2417,Emergency,Evening,Tuesday
+E1163,Ultrasound,Radiology,O2163,P5163,16-01-2025 2.00,16-01-2025 7.00,Used,Yes,19-01-2025,No,3386,Emergency,Night,Thursday
+E1164,MRI,ICU,O2164,P5164,02-03-2025 20.00,03-03-2025 1.00,Used,No,12-01-2025,No,2664,Scheduled,Evening,Sunday
+E1165,CT Scan,Cardiology,O2165,P5165,04-01-2025 9.00,04-01-2025 14.00,Used,No,11-12-2024,Yes,2429,Scheduled,Morning,Saturday
+E1166,Ultrasound,ICU,O2166,P5166,15-01-2025 19.00,15-01-2025 21.00,Used,No,14-01-2025,No,4445,Scheduled,Evening,Wednesday
+E1167,ECG,Emergency,O2167,P5167,23-02-2025 9.00,23-02-2025 14.00,Used,,03-12-2024,No,2709,Scheduled,Morning,Sunday
+E1168,ECG,ICU,O2168,P5168,25-01-2025 12.00,25-01-2025 17.00,Used,No,12-12-2024,No,4283,Emergency,Morning,Saturday
+E1169,ECG,Radiology,O2169,P5169,13-01-2025 6.00,13-01-2025 10.00,Maintenance,Yes,03-12-2024,No,3090,Scheduled,Morning,Monday
+E1170,ECG,ICU,O2170,P5170,21-02-2025 23.00,22-02-2025 0.00,Used,No,11-01-2025,No,4576,Scheduled,Evening,Friday
+E1171,ECG,Emergency,O2171,P5171,14-02-2025 13.00,14-02-2025 16.00,Idle,Yes,27-12-2024,No,1593,Scheduled,Morning,Friday
+E1172,Ultrasound,Emergency,O2172,P5172,17-02-2025 8.00,17-02-2025 9.00,Idle,No,18-01-2025,No,4380,Scheduled,Morning,Monday
+E1173,Ultrasound,Cardiology,O2173,P5173,22-02-2025 8.00,22-02-2025 12.00,Used,Yes,23-01-2025,No,2994,Emergency,Morning,Saturday
+E1174,Ventilator,ICU,O2174,P5174,01-01-2025 16.00,01-01-2025 19.00,Maintenance,No,02-12-2024,Yes,3079,Emergency,Evening,Wednesday
+E1175,X-Ray,Emergency,O2175,P5175,15-01-2025 23.00,16-01-2025 6.00,Used,Yes,18-01-2025,No,2988,Scheduled,Evening,Wednesday
+E1176,ECG,Radiology,O2176,,21-02-2025 22.00,22-02-2025 3.00,Used,No,16-12-2024,No,3285,Scheduled,Evening,Friday
+E1177,MRI,Cardiology,O2177,P5177,06-02-2025 1.00,06-02-2025 5.00,Used,No,02-12-2024,Yes,3258,Scheduled,Night,Thursday
+E1178,Ultrasound,Radiology,O2178,P5178,30-01-2025 3.00,30-01-2025 10.00,Used,Yes,29-01-2025,No,2074,Emergency,Night,Thursday
+E1179,MRI,ICU,O2179,P5179,19-01-2025 15.00,19-01-2025 20.00,Used,No,23-01-2025,No,2873,Emergency,Evening,Sunday
+E1180,MRI,ICU,O2180,P5180,05-02-2025 15.00,05-02-2025 17.00,Used,No,30-12-2024,No,4490,Scheduled,Evening,Wednesday
+E1181,MRI,ICU,O2181,P5181,16-01-2025 4.00,16-01-2025 10.00,Used,Yes,20-12-2024,No,1593,Scheduled,Night,Thursday
+E1182,Ventilator,Cardiology,O2182,P5182,29-01-2025 2.00,29-01-2025 6.00,Used,No,07-01-2025,Yes,1689,Scheduled,Night,Wednesday
+E1183,Ultrasound,Emergency,O2183,P5183,11-02-2025 23.00,12-02-2025 1.00,Used,,28-12-2024,No,3189,Emergency,Evening,Tuesday
+E1184,MRI,Cardiology,O2184,P5184,26-02-2025 5.00,26-02-2025 9.00,Used,No,25-12-2024,Yes,4595,Scheduled,Night,Wednesday
+E1185,ECG,Radiology,O2185,P5185,20-01-2025 10.00,20-01-2025 14.00,Used,No,01-01-2025,No,2375,Emergency,Morning,Monday
+E1186,CT Scan,Cardiology,O2186,P5186,18-01-2025 5.00,18-01-2025 7.00,Used,No,10-12-2024,Yes,3906,Emergency,Night,Saturday
+E1187,MRI,Radiology,O2187,P5187,03-03-2025 14.00,03-03-2025 17.00,Idle,No,29-01-2025,No,2287,Scheduled,Evening,Monday
+E1188,Ventilator,Cardiology,O2188,P5188,25-01-2025 9.00,25-01-2025 10.00,Used,No,11-01-2025,No,4432,Emergency,Morning,Saturday
+E1189,Ultrasound,Emergency,O2189,P5189,22-02-2025 8.00,22-02-2025 13.00,Idle,Yes,09-01-2025,No,2107,Emergency,Morning,Saturday
+E1190,Ventilator,Radiology,O2190,P5190,21-02-2025 23.00,22-02-2025 3.00,Used,No,02-01-2025,No,4248,Scheduled,Evening,Friday
+E1191,MRI,ICU,O2191,P5191,11-02-2025 9.00,11-02-2025 14.00,Used,No,13-12-2024,No,548,Scheduled,Morning,Tuesday
+E1192,Ultrasound,ICU,O2192,P5192,01-03-2025 19.00,02-03-2025 1.00,Used,No,25-01-2025,No,4361,Scheduled,Evening,Saturday
+E1193,CT Scan,Cardiology,O2193,P5193,24-01-2025 19.00,24-01-2025 21.00,Used,No,10-01-2025,No,2680,Scheduled,Evening,Friday
+E1194,MRI,ICU,O2194,P5194,14-01-2025 22.00,15-01-2025 3.00,Used,No,23-01-2025,No,3546,Emergency,Evening,Tuesday
+E1195,Ventilator,Radiology,O2195,P5195,21-02-2025 21.00,21-02-2025 23.00,Idle,No,11-01-2025,No,3333,Emergency,Evening,Friday
+E1196,X-Ray,ICU,O2196,P5196,02-01-2025 12.00,02-01-2025 17.00,Used,No,16-01-2025,Yes,1897,Scheduled,Morning,Thursday
+E1197,ECG,Emergency,O2197,P5197,11-02-2025 4.00,11-02-2025 5.00,Idle,No,06-01-2025,No,4326,Scheduled,Night,Tuesday
+E1198,Ventilator,Emergency,O2198,P5198,12-01-2025 13.00,12-01-2025 14.00,Idle,No,23-01-2025,No,1331,Scheduled,Morning,Sunday
+E1199,Ultrasound,Cardiology,O2199,P5199,20-02-2025 19.00,20-02-2025 20.00,Idle,Yes,16-12-2024,No,3197,Emergency,Evening,Thursday
+E1200,MRI,Radiology,O2200,P5200,08-02-2025 3.00,08-02-2025 4.00,Maintenance,,14-01-2025,No,3235,Scheduled,Night,Saturday
+E1201,ECG,Emergency,O2201,,21-01-2025 3.00,21-01-2025 4.00,Used,No,22-12-2024,No,581,Emergency,Night,Tuesday
+E1202,MRI,Emergency,O2202,P5202,22-02-2025 17.00,22-02-2025 18.00,Used,No,26-01-2025,No,586,Scheduled,Evening,Saturday
+E1203,Ultrasound,Radiology,O2203,P5203,26-02-2025 3.00,26-02-2025 5.00,Used,Yes,20-12-2024,No,2563,Scheduled,Night,Wednesday
+E1204,MRI,ICU,O2204,P5204,31-01-2025 10.00,31-01-2025 14.00,Used,No,19-01-2025,Yes,1321,Scheduled,Morning,Friday
+E1205,X-Ray,ICU,O2205,P5205,08-01-2025 23.00,09-01-2025 4.00,Used,No,12-01-2025,No,662,Scheduled,Evening,Wednesday
+E1206,ECG,Cardiology,O2206,P5206,13-02-2025 8.00,13-02-2025 9.00,Idle,No,27-12-2024,No,4239,Scheduled,Morning,Thursday
+E1207,ECG,ICU,O2207,P5207,22-01-2025 19.00,22-01-2025 21.00,Used,Yes,10-01-2025,No,2897,Scheduled,Evening,Wednesday
+E1208,Ultrasound,Radiology,O2208,P5208,08-02-2025 5.00,08-02-2025 7.00,Used,Yes,16-12-2024,No,2432,Scheduled,Night,Saturday
+E1209,X-Ray,Emergency,O2209,P5209,17-01-2025 16.00,17-01-2025 18.00,Used,No,03-01-2025,No,3228,Emergency,Evening,Friday
+E1210,Ventilator,ICU,O2210,P5210,06-02-2025 21.00,07-02-2025 1.00,Used,No,01-01-2025,No,4035,Scheduled,Evening,Thursday
+E1211,MRI,Cardiology,O2211,P5211,30-01-2025 8.00,30-01-2025 13.00,Used,No,26-12-2024,No,3946,Emergency,Morning,Thursday
+E1212,CT Scan,ICU,O2212,P5212,01-01-2025 21.00,02-01-2025 1.00,Idle,No,25-12-2024,No,3290,Scheduled,Evening,Wednesday
+E1213,MRI,Radiology,O2213,P5213,20-01-2025 17.00,20-01-2025 20.00,Used,Yes,02-12-2024,No,3207,Scheduled,Evening,Monday
+E1214,MRI,Cardiology,O2214,P5214,17-02-2025 15.00,17-02-2025 22.00,Used,No,12-12-2024,No,4433,Scheduled,Evening,Monday
+E1215,Ventilator,ICU,O2215,P5215,09-01-2025 17.00,09-01-2025 19.00,Used,Yes,09-01-2025,No,3885,Scheduled,Evening,Thursday
+E1216,MRI,Cardiology,O2216,P5216,13-01-2025 17.00,13-01-2025 20.00,Used,No,09-12-2024,No,1422,Emergency,Evening,Monday
+E1217,X-Ray,Radiology,O2217,P5217,23-02-2025 21.00,24-02-2025 3.00,Used,No,12-12-2024,No,2675,Scheduled,Evening,Sunday
+E1218,X-Ray,Emergency,O2218,P5218,30-01-2025 7.00,30-01-2025 8.00,Used,No,26-12-2024,No,2082,Scheduled,Morning,Thursday
+E1219,ECG,Radiology,O2219,P5219,29-01-2025 14.00,29-01-2025 21.00,Used,No,09-12-2024,No,1064,Scheduled,Evening,Wednesday
+E1220,Ultrasound,Radiology,O2220,P5220,12-01-2025 20.00,12-01-2025 21.00,Used,No,10-12-2024,No,3758,Scheduled,Evening,Sunday
+E1221,CT Scan,Radiology,O2221,P5221,30-01-2025 19.00,30-01-2025 23.00,Used,No,01-01-2025,No,3097,Scheduled,Evening,Thursday
+E1222,MRI,Radiology,O2222,P5222,01-02-2025 18.00,02-02-2025 1.00,Used,Yes,26-01-2025,No,3000,Scheduled,Evening,Saturday
+E1223,MRI,Emergency,O2223,,22-02-2025 2.00,22-02-2025 7.00,Used,No,03-01-2025,No,1487,Emergency,Night,Saturday
+E1224,Ventilator,Emergency,O2224,P5224,09-02-2025 11.00,09-02-2025 14.00,Used,No,17-01-2025,No,4136,Emergency,Morning,Sunday
+E1225,Ultrasound,Cardiology,O2225,P5225,16-01-2025 20.00,17-01-2025 1.00,Used,Yes,20-12-2024,No,723,Scheduled,Evening,Thursday
+E1226,X-Ray,ICU,O2226,P5226,20-01-2025 3.00,20-01-2025 7.00,Maintenance,No,08-01-2025,No,850,Scheduled,Night,Monday
+E1227,CT Scan,Emergency,O2227,P5227,12-02-2025 22.00,12-02-2025 23.00,Used,No,29-01-2025,Yes,2428,Scheduled,Evening,Wednesday
+E1228,ECG,Emergency,O2228,P5228,02-01-2025 4.00,02-01-2025 11.00,Used,No,02-12-2024,No,848,Scheduled,Night,Thursday
+E1229,X-Ray,ICU,O2229,P5229,07-02-2025 18.00,07-02-2025 23.00,Used,No,01-12-2024,No,4777,Scheduled,Evening,Friday
+E1230,Ultrasound,Emergency,O2230,P5230,14-02-2025 0.00,14-02-2025 5.00,Used,No,20-01-2025,No,1517,Scheduled,Night,Friday
+E1231,ECG,Radiology,O2231,P5231,06-02-2025 14.00,06-02-2025 15.00,Used,Yes,29-01-2025,No,2726,Emergency,Evening,Thursday
+E1232,Ventilator,Radiology,O2232,P5232,04-01-2025 6.00,04-01-2025 13.00,Used,Yes,05-01-2025,No,4624,Emergency,Morning,Saturday
+E1233,Ventilator,ICU,O2233,P5233,09-02-2025 10.00,09-02-2025 13.00,Maintenance,No,24-12-2024,No,2919,Scheduled,Morning,Sunday
+E1234,MRI,Cardiology,O2234,P5234,20-01-2025 2.00,20-01-2025 3.00,Used,No,23-01-2025,No,2393,Scheduled,Night,Monday
+E1235,Ultrasound,Cardiology,O2235,P5235,24-01-2025 17.00,24-01-2025 22.00,Used,Yes,27-12-2024,No,3540,Scheduled,Evening,Friday
+E1236,CT Scan,ICU,O2236,P5236,02-03-2025 13.00,02-03-2025 16.00,Used,No,02-12-2024,No,2568,Scheduled,Morning,Sunday
+E1237,ECG,ICU,O2237,P5237,31-01-2025 17.00,31-01-2025 20.00,Used,No,31-12-2024,No,1625,Emergency,Evening,Friday
+E1238,X-Ray,Radiology,O2238,P5238,24-02-2025 12.00,24-02-2025 13.00,Used,No,26-01-2025,No,3617,Scheduled,Morning,Monday
+E1239,Ultrasound,Cardiology,O2239,P5239,22-01-2025 11.00,22-01-2025 16.00,Used,Yes,14-12-2024,No,4661,Emergency,Morning,Wednesday
+E1240,Ultrasound,Emergency,O2240,P5240,16-02-2025 18.00,16-02-2025 22.00,Idle,No,02-12-2024,Yes,4542,Scheduled,Evening,Sunday
+E1241,Ventilator,Radiology,O2241,P5241,17-01-2025 12.00,17-01-2025 17.00,Used,,29-12-2024,No,4933,Scheduled,Morning,Friday
+E1242,MRI,ICU,O2242,,02-01-2025 14.00,02-01-2025 16.00,Used,No,15-12-2024,No,2670,Scheduled,Evening,Thursday
+E1243,MRI,Cardiology,O2243,P5243,23-02-2025 22.00,24-02-2025 5.00,Maintenance,No,12-12-2024,No,946,Scheduled,Evening,Sunday
+E1244,ECG,Emergency,O2244,,06-02-2025 22.00,07-02-2025 4.00,Used,No,06-01-2025,No,3158,Emergency,Evening,Thursday
+E1245,Ventilator,Emergency,O2245,P5245,03-02-2025 4.00,03-02-2025 8.00,Maintenance,No,28-12-2024,No,3862,Scheduled,Night,Monday
+E1246,Ultrasound,Radiology,O2246,P5246,07-01-2025 12.00,07-01-2025 15.00,Used,Yes,20-12-2024,Yes,3218,Scheduled,Morning,Tuesday
+E1247,CT Scan,Cardiology,O2247,P5247,15-02-2025 18.00,15-02-2025 22.00,Idle,No,08-01-2025,No,3983,Scheduled,Evening,Saturday
+E1248,Ventilator,Cardiology,O2248,P5248,06-02-2025 19.00,07-02-2025 2.00,Used,No,24-12-2024,No,3444,Scheduled,Evening,Thursday
+E1249,ECG,ICU,O2249,P5249,18-02-2025 1.00,18-02-2025 4.00,Idle,No,21-12-2024,Yes,4876,Scheduled,Night,Tuesday
+E1250,ECG,Cardiology,O2250,P5250,10-02-2025 13.00,10-02-2025 20.00,Maintenance,Yes,10-12-2024,No,1095,Scheduled,Morning,Monday
+E1251,Ventilator,Cardiology,O2251,,16-02-2025 3.00,16-02-2025 6.00,Used,Yes,15-01-2025,No,2486,Emergency,Night,Sunday
+E1252,ECG,Radiology,O2252,P5252,13-02-2025 13.00,13-02-2025 17.00,Maintenance,No,14-12-2024,No,3250,Scheduled,Morning,Thursday
+E1253,Ventilator,Cardiology,O2253,P5253,03-03-2025 18.00,03-03-2025 21.00,Used,No,06-01-2025,No,1574,Emergency,Evening,Monday
+E1254,X-Ray,Emergency,O2254,P5254,05-02-2025 8.00,05-02-2025 11.00,Used,No,18-12-2024,No,4469,Scheduled,Morning,Wednesday
+E1255,Ventilator,Radiology,O2255,P5255,28-02-2025 13.00,28-02-2025 15.00,Used,No,24-12-2024,No,4805,Scheduled,Morning,Friday
+E1256,Ventilator,Radiology,O2256,P5256,01-02-2025 3.00,01-02-2025 8.00,Used,No,14-12-2024,No,4721,Scheduled,Night,Saturday
+E1257,ECG,ICU,O2257,P5257,02-03-2025 23.00,03-03-2025 4.00,Used,No,03-01-2025,No,4080,Scheduled,Evening,Sunday
+E1258,ECG,Cardiology,O2258,P5258,11-02-2025 4.00,11-02-2025 10.00,Used,No,27-01-2025,No,3507,Scheduled,Night,Tuesday
+E1259,MRI,ICU,O2259,P5259,01-01-2025 20.00,02-01-2025 2.00,Used,No,12-12-2024,No,1469,Emergency,Evening,Wednesday
+E1260,MRI,Emergency,O2260,P5260,13-01-2025 14.00,13-01-2025 16.00,Idle,No,22-12-2024,No,1080,Scheduled,Evening,Monday
+E1261,X-Ray,Radiology,O2261,,06-02-2025 4.00,06-02-2025 10.00,Idle,Yes,25-01-2025,No,3324,Scheduled,Night,Thursday
+E1262,MRI,Radiology,O2262,P5262,04-01-2025 11.00,04-01-2025 18.00,Used,No,06-12-2024,No,4501,Scheduled,Morning,Saturday
+E1263,Ventilator,Radiology,O2263,,03-03-2025 12.00,03-03-2025 16.00,Used,No,05-01-2025,Yes,1711,Emergency,Morning,Monday
+E1264,ECG,Emergency,O2264,P5264,28-02-2025 18.00,28-02-2025 19.00,Used,No,14-01-2025,No,729,Scheduled,Evening,Friday
+E1265,MRI,Emergency,O2265,P5265,23-02-2025 8.00,23-02-2025 15.00,Used,Yes,05-01-2025,No,4784,Scheduled,Morning,Sunday
+E1266,MRI,ICU,O2266,P5266,24-01-2025 17.00,24-01-2025 18.00,Used,No,22-12-2024,No,3685,Scheduled,Evening,Friday
+E1267,X-Ray,ICU,O2267,P5267,08-02-2025 21.00,08-02-2025 22.00,Used,Yes,14-12-2024,No,1001,Scheduled,Evening,Saturday
+E1268,Ultrasound,ICU,O2268,P5268,19-02-2025 9.00,19-02-2025 11.00,Used,Yes,16-12-2024,No,2632,Scheduled,Morning,Wednesday
+E1269,X-Ray,Cardiology,O2269,P5269,19-02-2025 10.00,19-02-2025 17.00,Maintenance,No,05-01-2025,No,548,Scheduled,Morning,Wednesday
+E1270,Ventilator,Radiology,O2270,P5270,12-02-2025 0.00,12-02-2025 2.00,Used,No,25-01-2025,Yes,4066,Scheduled,Night,Wednesday
+E1271,ECG,Radiology,O2271,P5271,03-02-2025 0.00,03-02-2025 3.00,Used,No,25-12-2024,No,3555,Emergency,Night,Monday
+E1272,X-Ray,ICU,O2272,P5272,02-02-2025 23.00,03-02-2025 0.00,Used,Yes,01-01-2025,No,1188,Emergency,Evening,Sunday
+E1273,MRI,Radiology,O2273,P5273,23-02-2025 22.00,24-02-2025 2.00,Used,Yes,02-01-2025,No,886,Scheduled,Evening,Sunday
+E1274,ECG,ICU,O2274,P5274,21-01-2025 11.00,21-01-2025 17.00,Used,No,14-01-2025,No,1469,Emergency,Morning,Tuesday
+E1275,ECG,Cardiology,O2275,P5275,09-01-2025 15.00,09-01-2025 19.00,Used,No,05-01-2025,No,3960,Scheduled,Evening,Thursday
+E1276,MRI,Cardiology,O2276,P5276,15-02-2025 3.00,15-02-2025 9.00,Used,No,20-12-2024,No,1505,Scheduled,Night,Saturday
+E1277,X-Ray,Emergency,O2277,P5277,18-01-2025 21.00,18-01-2025 22.00,Used,No,18-12-2024,No,3552,Emergency,Evening,Saturday
+E1278,MRI,Cardiology,O2278,P5278,11-02-2025 0.00,11-02-2025 1.00,Maintenance,No,07-01-2025,No,3917,Scheduled,Night,Tuesday
+E1279,Ultrasound,ICU,O2279,P5279,25-02-2025 12.00,25-02-2025 13.00,Idle,No,03-12-2024,No,2802,Scheduled,Morning,Tuesday
+E1280,ECG,Cardiology,O2280,P5280,22-01-2025 15.00,22-01-2025 17.00,Used,No,23-12-2024,No,2783,Scheduled,Evening,Wednesday
+E1281,CT Scan,Emergency,O2281,P5281,25-01-2025 14.00,25-01-2025 21.00,Used,No,01-01-2025,No,2107,Scheduled,Evening,Saturday
+E1282,CT Scan,Radiology,O2282,P5282,13-02-2025 18.00,14-02-2025 0.00,Used,No,14-01-2025,No,4866,Scheduled,Evening,Thursday
+E1283,Ventilator,ICU,O2283,P5283,09-01-2025 6.00,09-01-2025 13.00,Used,No,28-01-2025,No,622,Scheduled,Morning,Thursday
+E1284,MRI,Radiology,O2284,P5284,17-01-2025 2.00,17-01-2025 4.00,Used,No,16-12-2024,No,1780,Scheduled,Night,Friday
+E1285,MRI,Emergency,O2285,P5285,15-01-2025 12.00,15-01-2025 14.00,Used,No,28-01-2025,No,4227,Scheduled,Morning,Wednesday
+E1286,Ventilator,Emergency,O2286,P5286,09-02-2025 23.00,10-02-2025 4.00,Used,Yes,05-12-2024,No,758,Emergency,Evening,Sunday
+E1287,Ventilator,Emergency,O2287,P5287,29-01-2025 20.00,30-01-2025 0.00,Used,No,04-12-2024,No,1447,Emergency,Evening,Wednesday
+E1288,Ventilator,Radiology,O2288,P5288,16-01-2025 17.00,16-01-2025 21.00,Used,Yes,21-12-2024,Yes,1024,Scheduled,Evening,Thursday
+E1289,ECG,Radiology,O2289,,07-02-2025 10.00,07-02-2025 13.00,Maintenance,No,09-01-2025,No,1387,Emergency,Morning,Friday
+E1290,Ultrasound,Radiology,O2290,P5290,08-02-2025 3.00,08-02-2025 5.00,Maintenance,No,20-01-2025,No,707,Emergency,Night,Saturday
+E1291,MRI,Radiology,O2291,P5291,22-01-2025 22.00,23-01-2025 4.00,Idle,No,14-12-2024,No,3882,Scheduled,Evening,Wednesday
+E1292,ECG,Emergency,O2292,P5292,19-02-2025 0.00,19-02-2025 5.00,Used,No,08-01-2025,No,3294,Emergency,Night,Wednesday
+E1293,Ventilator,Emergency,O2293,P5293,31-01-2025 13.00,31-01-2025 18.00,Idle,No,31-12-2024,No,648,Scheduled,Morning,Friday
+E1294,MRI,ICU,O2294,P5294,09-01-2025 13.00,09-01-2025 20.00,Used,No,14-12-2024,No,937,Scheduled,Morning,Thursday
+E1295,ECG,ICU,O2295,P5295,19-01-2025 22.00,20-01-2025 2.00,Idle,Yes,06-12-2024,No,2702,Scheduled,Evening,Sunday
+E1296,Ultrasound,Radiology,O2296,P5296,24-02-2025 0.00,24-02-2025 2.00,Used,Yes,12-12-2024,No,4249,Scheduled,Night,Monday
+E1297,ECG,Cardiology,O2297,P5297,22-02-2025 11.00,22-02-2025 14.00,Idle,No,16-12-2024,No,3661,Emergency,Morning,Saturday
+E1298,Ultrasound,Cardiology,O2298,P5298,22-01-2025 16.00,22-01-2025 18.00,Used,No,17-12-2024,No,4401,Scheduled,Evening,Wednesday
+E1299,Ventilator,Emergency,O2299,P5299,12-02-2025 8.00,12-02-2025 15.00,Idle,,14-01-2025,Yes,4953,Scheduled,Morning,Wednesday
+E1300,Ultrasound,Emergency,O2300,P5300,09-02-2025 19.00,09-02-2025 20.00,Maintenance,Yes,23-12-2024,No,3745,Scheduled,Evening,Sunday
+E1301,MRI,Emergency,O2301,P5301,31-01-2025 5.00,31-01-2025 7.00,Used,No,14-12-2024,No,3323,Scheduled,Night,Friday
+E1302,Ventilator,ICU,O2302,P5302,12-02-2025 5.00,12-02-2025 12.00,Used,Yes,07-12-2024,No,3770,Scheduled,Night,Wednesday
+E1303,MRI,ICU,O2303,P5303,21-01-2025 20.00,21-01-2025 21.00,Maintenance,No,15-01-2025,No,985,Scheduled,Evening,Tuesday
+E1304,CT Scan,Emergency,O2304,P5304,05-01-2025 20.00,05-01-2025 21.00,Used,Yes,01-01-2025,No,699,Emergency,Evening,Sunday
+E1305,X-Ray,Emergency,O2305,P5305,17-01-2025 1.00,17-01-2025 4.00,Idle,No,15-12-2024,No,4966,Scheduled,Night,Friday
+E1306,Ultrasound,Emergency,O2306,P5306,26-02-2025 23.00,27-02-2025 5.00,Used,Yes,13-01-2025,No,2482,Scheduled,Evening,Wednesday
+E1307,X-Ray,Cardiology,O2307,P5307,25-01-2025 7.00,25-01-2025 11.00,Used,No,17-12-2024,Yes,1971,Emergency,Morning,Saturday
+E1308,X-Ray,ICU,O2308,P5308,17-01-2025 10.00,17-01-2025 12.00,Used,,10-01-2025,No,4843,Scheduled,Morning,Friday
+E1309,Ultrasound,Cardiology,O2309,P5309,15-02-2025 7.00,15-02-2025 8.00,Used,No,23-01-2025,Yes,2811,Emergency,Morning,Saturday
+E1310,Ventilator,Cardiology,O2310,P5310,31-01-2025 0.00,31-01-2025 2.00,Idle,No,16-01-2025,No,3873,Scheduled,Night,Friday
+E1311,CT Scan,Emergency,O2311,P5311,03-01-2025 23.00,04-01-2025 5.00,Used,No,13-01-2025,No,2578,Scheduled,Evening,Friday
+E1312,MRI,Emergency,O2312,P5312,12-01-2025 9.00,12-01-2025 13.00,Used,No,03-01-2025,No,2021,Emergency,Morning,Sunday
+E1313,ECG,Radiology,O2313,P5313,25-02-2025 23.00,26-02-2025 5.00,Used,No,05-12-2024,No,1104,Scheduled,Evening,Tuesday
+E1314,MRI,Radiology,O2314,P5314,15-01-2025 1.00,15-01-2025 5.00,Used,No,14-01-2025,No,4348,Emergency,Night,Wednesday
+E1315,ECG,Cardiology,O2315,P5315,27-02-2025 21.00,28-02-2025 2.00,Idle,No,27-12-2024,No,3842,Scheduled,Evening,Thursday
+E1316,MRI,ICU,O2316,P5316,26-01-2025 6.00,26-01-2025 10.00,Maintenance,Yes,21-01-2025,No,1917,Emergency,Morning,Sunday
+E1317,Ultrasound,Emergency,O2317,P5317,07-01-2025 21.00,08-01-2025 0.00,Used,No,23-12-2024,No,4375,Scheduled,Evening,Tuesday
+E1318,CT Scan,Emergency,O2318,P5318,01-01-2025 10.00,01-01-2025 16.00,Idle,Yes,09-01-2025,No,3433,Scheduled,Morning,Wednesday
+E1319,ECG,Cardiology,O2319,P5319,25-02-2025 4.00,25-02-2025 5.00,Idle,Yes,28-01-2025,No,1048,Scheduled,Night,Tuesday
+E1320,Ventilator,Radiology,O2320,P5320,31-01-2025 8.00,31-01-2025 13.00,Used,No,14-12-2024,No,1338,Scheduled,Morning,Friday
+E1321,MRI,ICU,O2321,P5321,03-02-2025 8.00,03-02-2025 11.00,Maintenance,No,15-12-2024,No,4315,Scheduled,Morning,Monday
+E1322,MRI,Radiology,O2322,P5322,05-01-2025 5.00,05-01-2025 7.00,Used,,12-01-2025,No,1347,Scheduled,Night,Sunday
+E1323,ECG,Radiology,O2323,P5323,02-03-2025 8.00,02-03-2025 14.00,Used,No,02-01-2025,No,4754,Scheduled,Morning,Sunday
+E1324,Ventilator,Radiology,O2324,P5324,28-02-2025 23.00,01-03-2025 6.00,Idle,No,22-01-2025,Yes,4968,Scheduled,Evening,Friday
+E1325,Ventilator,Radiology,O2325,,02-02-2025 10.00,02-02-2025 17.00,Used,No,31-12-2024,No,2772,Scheduled,Morning,Sunday
+E1326,Ultrasound,Emergency,O2326,P5326,09-01-2025 21.00,09-01-2025 22.00,Idle,Yes,04-01-2025,Yes,3820,Emergency,Evening,Thursday
+E1327,Ultrasound,Emergency,O2327,P5327,16-02-2025 7.00,16-02-2025 11.00,Idle,Yes,17-12-2024,No,3058,Scheduled,Morning,Sunday
+E1328,Ultrasound,Radiology,O2328,P5328,17-01-2025 16.00,17-01-2025 17.00,Used,No,28-12-2024,No,4811,Emergency,Evening,Friday
+E1329,Ultrasound,ICU,O2329,P5329,25-01-2025 11.00,25-01-2025 18.00,Idle,,19-12-2024,No,2496,Scheduled,Morning,Saturday
+E1330,Ultrasound,Cardiology,O2330,P5330,07-02-2025 0.00,07-02-2025 2.00,Used,Yes,15-01-2025,No,4173,Scheduled,Night,Friday
+E1331,Ultrasound,ICU,O2331,P5331,14-02-2025 13.00,14-02-2025 18.00,Used,No,23-01-2025,No,2064,Scheduled,Morning,Friday
+E1332,CT Scan,ICU,O2332,P5332,03-03-2025 22.00,04-03-2025 3.00,Used,No,23-12-2024,No,4518,Emergency,Evening,Monday
+E1333,Ventilator,ICU,O2333,P5333,25-01-2025 15.00,25-01-2025 21.00,Maintenance,No,01-01-2025,Yes,2340,Emergency,Evening,Saturday
+E1334,Ultrasound,Radiology,O2334,P5334,25-02-2025 13.00,25-02-2025 18.00,Used,No,09-01-2025,No,3791,Scheduled,Morning,Tuesday
+E1335,Ventilator,Emergency,O2335,P5335,16-02-2025 5.00,16-02-2025 11.00,Used,No,13-12-2024,No,3387,Scheduled,Night,Sunday
+E1336,Ventilator,ICU,O2336,P5336,04-01-2025 19.00,05-01-2025 1.00,Used,Yes,28-01-2025,No,1226,Scheduled,Evening,Saturday
+E1337,X-Ray,Radiology,O2337,P5337,29-01-2025 0.00,29-01-2025 6.00,Idle,Yes,20-12-2024,No,1744,Scheduled,Night,Wednesday
+E1338,CT Scan,ICU,O2338,P5338,30-01-2025 17.00,31-01-2025 0.00,Used,No,04-01-2025,No,3960,Scheduled,Evening,Thursday
+E1339,Ultrasound,ICU,O2339,P5339,08-02-2025 23.00,09-02-2025 6.00,Used,No,05-12-2024,No,4218,Scheduled,Evening,Saturday
+E1340,MRI,Radiology,O2340,P5340,11-01-2025 1.00,11-01-2025 5.00,Used,No,09-12-2024,No,1565,Emergency,Night,Saturday
+E1341,ECG,Emergency,O2341,P5341,01-01-2025 1.00,01-01-2025 4.00,Used,Yes,29-12-2024,No,782,Scheduled,Night,Wednesday
+E1342,MRI,Emergency,O2342,P5342,10-01-2025 8.00,10-01-2025 14.00,Idle,No,06-12-2024,No,1581,Emergency,Morning,Friday
+E1343,CT Scan,Cardiology,O2343,P5343,03-02-2025 8.00,03-02-2025 14.00,Used,No,25-12-2024,No,4385,Scheduled,Morning,Monday
+E1344,ECG,Radiology,O2344,P5344,25-01-2025 12.00,25-01-2025 15.00,Used,No,31-12-2024,No,3381,Emergency,Morning,Saturday
+E1345,CT Scan,Cardiology,O2345,P5345,05-01-2025 19.00,05-01-2025 20.00,Maintenance,No,22-12-2024,No,3084,Scheduled,Evening,Sunday
+E1346,Ventilator,Cardiology,O2346,P5346,08-02-2025 5.00,08-02-2025 11.00,Used,No,02-12-2024,No,3470,Emergency,Night,Saturday
+E1347,ECG,Cardiology,O2347,P5347,16-02-2025 22.00,17-02-2025 2.00,Maintenance,No,14-01-2025,No,1652,Emergency,Evening,Sunday
+E1348,Ventilator,Emergency,O2348,P5348,09-01-2025 1.00,09-01-2025 6.00,Used,No,05-12-2024,No,3997,Scheduled,Night,Thursday
+E1349,MRI,Radiology,O2349,P5349,19-02-2025 13.00,19-02-2025 18.00,Idle,,29-01-2025,No,1447,Emergency,Morning,Wednesday
+E1350,MRI,Cardiology,O2350,P5350,06-02-2025 6.00,06-02-2025 8.00,Used,No,27-12-2024,No,2217,Emergency,Morning,Thursday
+E1351,ECG,Radiology,O2351,P5351,04-01-2025 17.00,04-01-2025 19.00,Used,No,25-12-2024,No,566,Scheduled,Evening,Saturday
+E1352,ECG,Radiology,O2352,P5352,06-01-2025 1.00,06-01-2025 6.00,Idle,No,08-12-2024,Yes,1136,Emergency,Night,Monday
+E1353,Ultrasound,Emergency,O2353,P5353,06-01-2025 22.00,07-01-2025 3.00,Idle,No,24-01-2025,No,813,Emergency,Evening,Monday
+E1354,CT Scan,Cardiology,O2354,P5354,11-02-2025 9.00,11-02-2025 16.00,Idle,Yes,01-12-2024,Yes,3897,Scheduled,Morning,Tuesday
+E1355,Ultrasound,Cardiology,O2355,P5355,05-01-2025 9.00,05-01-2025 13.00,Used,No,20-12-2024,No,1064,Scheduled,Morning,Sunday
+E1356,CT Scan,Radiology,O2356,P5356,06-02-2025 22.00,07-02-2025 1.00,Idle,No,13-01-2025,No,2101,Scheduled,Evening,Thursday
+E1357,Ultrasound,ICU,O2357,P5357,18-01-2025 19.00,18-01-2025 21.00,Idle,No,23-12-2024,No,1325,Scheduled,Evening,Saturday
+E1358,Ventilator,Emergency,O2358,P5358,25-02-2025 8.00,25-02-2025 15.00,Used,No,01-01-2025,No,4170,Scheduled,Morning,Tuesday
+E1359,ECG,Emergency,O2359,P5359,14-01-2025 4.00,14-01-2025 11.00,Idle,No,11-12-2024,No,1525,Emergency,Night,Tuesday
+E1360,MRI,Emergency,O2360,P5360,27-01-2025 10.00,27-01-2025 13.00,Idle,Yes,08-01-2025,No,2751,Scheduled,Morning,Monday
+E1361,CT Scan,Emergency,O2361,P5361,01-01-2025 8.00,01-01-2025 15.00,Used,No,16-01-2025,No,1304,Scheduled,Morning,Wednesday
+E1362,CT Scan,Cardiology,O2362,P5362,02-02-2025 5.00,02-02-2025 9.00,Used,No,23-01-2025,No,2951,Scheduled,Night,Sunday
+E1363,MRI,Cardiology,O2363,P5363,15-02-2025 16.00,15-02-2025 21.00,Used,No,24-12-2024,No,1891,Scheduled,Evening,Saturday
+E1364,Ultrasound,ICU,O2364,P5364,27-02-2025 14.00,27-02-2025 20.00,Used,No,11-12-2024,No,1735,Emergency,Evening,Thursday
+E1365,CT Scan,Emergency,O2365,P5365,10-01-2025 6.00,10-01-2025 9.00,Used,No,29-12-2024,No,4532,Scheduled,Morning,Friday
+E1366,Ventilator,Emergency,O2366,,01-03-2025 23.00,02-03-2025 4.00,Used,No,23-01-2025,No,3780,Scheduled,Evening,Saturday
+E1367,ECG,Radiology,O2367,P5367,24-01-2025 0.00,24-01-2025 5.00,Used,Yes,26-12-2024,Yes,4049,Scheduled,Night,Friday
+E1368,MRI,Cardiology,O2368,P5368,28-02-2025 1.00,28-02-2025 2.00,Used,No,16-12-2024,No,4700,Emergency,Night,Friday
+E1369,ECG,Emergency,O2369,P5369,30-01-2025 19.00,30-01-2025 22.00,Used,No,04-01-2025,No,4641,Emergency,Evening,Thursday
+E1370,CT Scan,ICU,O2370,P5370,23-02-2025 15.00,23-02-2025 22.00,Idle,No,20-12-2024,No,1854,Emergency,Evening,Sunday
+E1371,CT Scan,ICU,O2371,P5371,25-02-2025 21.00,26-02-2025 3.00,Maintenance,No,15-01-2025,No,2336,Scheduled,Evening,Tuesday
+E1372,MRI,Cardiology,O2372,P5372,16-02-2025 3.00,16-02-2025 6.00,Used,No,03-12-2024,No,3392,Emergency,Night,Sunday
+E1373,Ventilator,ICU,O2373,P5373,25-02-2025 21.00,26-02-2025 4.00,Maintenance,Yes,01-12-2024,No,2996,Emergency,Evening,Tuesday
+E1374,X-Ray,ICU,O2374,P5374,05-01-2025 14.00,05-01-2025 19.00,Used,,27-01-2025,No,3083,Scheduled,Evening,Sunday
+E1375,MRI,Cardiology,O2375,P5375,11-01-2025 10.00,11-01-2025 16.00,Used,No,22-01-2025,No,3058,Emergency,Morning,Saturday
+E1376,X-Ray,Emergency,O2376,P5376,16-01-2025 22.00,17-01-2025 5.00,Used,No,16-01-2025,No,4118,Scheduled,Evening,Thursday
+E1377,Ultrasound,Emergency,O2377,P5377,01-01-2025 6.00,01-01-2025 10.00,Used,No,01-12-2024,No,2059,Scheduled,Morning,Wednesday
+E1378,X-Ray,ICU,O2378,P5378,20-01-2025 2.00,20-01-2025 9.00,Idle,No,17-12-2024,No,2007,Scheduled,Night,Monday
+E1379,Ventilator,ICU,O2379,P5379,16-02-2025 3.00,16-02-2025 4.00,Idle,Yes,02-12-2024,No,4571,Scheduled,Night,Sunday
+E1380,Ultrasound,Emergency,O2380,P5380,09-01-2025 15.00,09-01-2025 20.00,Used,No,29-12-2024,No,2563,Scheduled,Evening,Thursday
+E1381,X-Ray,Cardiology,O2381,P5381,07-02-2025 11.00,07-02-2025 18.00,Used,No,20-12-2024,No,4142,Scheduled,Morning,Friday
+E1382,Ultrasound,ICU,O2382,P5382,28-02-2025 21.00,28-02-2025 23.00,Used,,06-12-2024,No,2500,Emergency,Evening,Friday
+E1383,X-Ray,Radiology,O2383,P5383,25-02-2025 17.00,25-02-2025 19.00,Used,No,08-12-2024,No,1794,Emergency,Evening,Tuesday
+E1384,Ventilator,Cardiology,O2384,P5384,01-01-2025 21.00,01-01-2025 22.00,Used,No,29-12-2024,No,4565,Emergency,Evening,Wednesday
+E1385,X-Ray,ICU,O2385,P5385,18-01-2025 1.00,18-01-2025 5.00,Used,No,17-01-2025,No,3252,Scheduled,Night,Saturday
+E1386,X-Ray,ICU,O2386,,07-02-2025 6.00,07-02-2025 11.00,Idle,No,20-01-2025,No,2253,Scheduled,Morning,Friday
+E1387,X-Ray,Radiology,O2387,P5387,22-01-2025 10.00,22-01-2025 13.00,Maintenance,Yes,02-01-2025,No,4710,Scheduled,Morning,Wednesday
+E1388,MRI,Radiology,O2388,P5388,17-02-2025 22.00,17-02-2025 23.00,Used,Yes,03-12-2024,No,2103,Scheduled,Evening,Monday
+E1389,MRI,Emergency,O2389,P5389,03-02-2025 16.00,03-02-2025 20.00,Maintenance,No,29-01-2025,No,1822,Emergency,Evening,Monday
+E1390,MRI,Cardiology,O2390,P5390,06-02-2025 9.00,06-02-2025 12.00,Used,No,04-01-2025,No,2941,Scheduled,Morning,Thursday
+E1391,Ventilator,Cardiology,O2391,P5391,01-01-2025 13.00,01-01-2025 15.00,Used,,05-12-2024,No,1598,Scheduled,Morning,Wednesday
+E1392,Ultrasound,Emergency,O2392,P5392,10-02-2025 10.00,10-02-2025 12.00,Used,,27-12-2024,No,2005,Emergency,Morning,Monday
+E1393,CT Scan,Cardiology,O2393,P5393,10-02-2025 17.00,10-02-2025 20.00,Used,No,13-01-2025,No,1626,Scheduled,Evening,Monday
+E1394,X-Ray,Cardiology,O2394,P5394,12-02-2025 5.00,12-02-2025 6.00,Maintenance,No,12-12-2024,No,796,Emergency,Night,Wednesday
+E1395,X-Ray,Cardiology,O2395,P5395,13-02-2025 3.00,13-02-2025 5.00,Used,No,20-12-2024,No,3549,Scheduled,Night,Thursday
+E1396,Ventilator,Cardiology,O2396,P5396,04-01-2025 14.00,04-01-2025 19.00,Used,No,14-01-2025,No,2725,Scheduled,Evening,Saturday
+E1397,X-Ray,Cardiology,O2397,P5397,07-02-2025 20.00,08-02-2025 2.00,Used,No,20-12-2024,No,4854,Emergency,Evening,Friday
+E1398,MRI,Radiology,O2398,P5398,25-02-2025 4.00,25-02-2025 11.00,Used,Yes,09-12-2024,No,4287,Scheduled,Night,Tuesday
+E1399,CT Scan,Cardiology,O2399,P5399,22-02-2025 18.00,22-02-2025 21.00,Idle,No,08-01-2025,No,2596,Scheduled,Evening,Saturday
+E1400,ECG,Radiology,O2400,P5400,06-01-2025 1.00,06-01-2025 4.00,Used,No,04-12-2024,No,4109,Scheduled,Night,Monday
+E1401,X-Ray,Cardiology,O2401,P5401,18-02-2025 18.00,18-02-2025 20.00,Used,No,20-01-2025,No,2708,Scheduled,Evening,Tuesday
+E1402,MRI,Emergency,O2402,P5402,01-02-2025 5.00,01-02-2025 6.00,Used,No,23-01-2025,No,675,Emergency,Night,Saturday
+E1403,ECG,ICU,O2403,P5403,27-02-2025 11.00,27-02-2025 16.00,Used,,19-12-2024,No,3002,Scheduled,Morning,Thursday
+E1404,CT Scan,Radiology,O2404,P5404,29-01-2025 12.00,29-01-2025 13.00,Used,No,07-01-2025,No,4499,Scheduled,Morning,Wednesday
+E1405,ECG,Cardiology,O2405,P5405,13-01-2025 20.00,14-01-2025 0.00,Used,Yes,27-12-2024,No,2167,Scheduled,Evening,Monday
+E1406,MRI,Emergency,O2406,P5406,29-01-2025 22.00,30-01-2025 2.00,Used,,14-01-2025,No,4871,Emergency,Evening,Wednesday
+E1407,Ultrasound,ICU,O2407,P5407,12-01-2025 23.00,13-01-2025 5.00,Idle,,12-01-2025,No,3045,Scheduled,Evening,Sunday
+E1408,Ultrasound,Radiology,O2408,P5408,13-01-2025 18.00,13-01-2025 20.00,Idle,Yes,13-12-2024,No,1175,Scheduled,Evening,Monday
+E1409,ECG,ICU,O2409,P5409,08-02-2025 1.00,08-02-2025 3.00,Idle,No,13-12-2024,No,2323,Emergency,Night,Saturday
+E1410,Ventilator,Emergency,O2410,P5410,28-01-2025 13.00,28-01-2025 15.00,Used,No,29-01-2025,No,1856,Scheduled,Morning,Tuesday
+E1411,ECG,Radiology,O2411,P5411,23-01-2025 20.00,24-01-2025 2.00,Used,No,26-01-2025,No,3572,Emergency,Evening,Thursday
+E1412,X-Ray,ICU,O2412,P5412,27-02-2025 7.00,27-02-2025 11.00,Used,No,22-12-2024,No,3759,Scheduled,Morning,Thursday
+E1413,X-Ray,Cardiology,O2413,P5413,13-01-2025 23.00,14-01-2025 0.00,Idle,Yes,28-12-2024,No,1046,Emergency,Evening,Monday
+E1414,Ultrasound,Radiology,O2414,P5414,06-02-2025 8.00,06-02-2025 14.00,Used,No,21-01-2025,No,2583,Scheduled,Morning,Thursday
+E1415,Ventilator,ICU,O2415,P5415,15-02-2025 2.00,15-02-2025 8.00,Used,No,16-01-2025,No,2540,Scheduled,Night,Saturday
+E1416,MRI,Emergency,O2416,P5416,08-02-2025 11.00,08-02-2025 12.00,Used,Yes,22-01-2025,No,2252,Scheduled,Morning,Saturday
+E1417,X-Ray,Emergency,O2417,P5417,01-02-2025 10.00,01-02-2025 12.00,Used,No,14-01-2025,No,2115,Scheduled,Morning,Saturday
+E1418,Ultrasound,Radiology,O2418,P5418,02-01-2025 10.00,02-01-2025 15.00,Used,No,22-12-2024,No,2349,Scheduled,Morning,Thursday
+E1419,CT Scan,ICU,O2419,P5419,19-01-2025 12.00,19-01-2025 13.00,Used,No,12-01-2025,No,3142,Scheduled,Morning,Sunday
+E1420,Ultrasound,Radiology,O2420,P5420,04-01-2025 20.00,05-01-2025 0.00,Idle,No,19-12-2024,No,2100,Emergency,Evening,Saturday
+E1421,X-Ray,Radiology,O2421,P5421,21-02-2025 6.00,21-02-2025 9.00,Used,Yes,08-12-2024,No,3896,Emergency,Morning,Friday
+E1422,X-Ray,ICU,O2422,P5422,15-01-2025 16.00,15-01-2025 19.00,Used,No,21-01-2025,No,4902,Scheduled,Evening,Wednesday
+E1423,Ultrasound,ICU,O2423,P5423,07-02-2025 14.00,07-02-2025 21.00,Used,No,08-12-2024,No,4105,Emergency,Evening,Friday
+E1424,MRI,Cardiology,O2424,P5424,26-02-2025 11.00,26-02-2025 18.00,Used,No,11-01-2025,No,4299,Scheduled,Morning,Wednesday
+E1425,ECG,ICU,O2425,P5425,05-02-2025 21.00,06-02-2025 3.00,Used,No,26-12-2024,No,1118,Scheduled,Evening,Wednesday
+E1426,X-Ray,Emergency,O2426,P5426,07-01-2025 14.00,07-01-2025 17.00,Idle,No,17-01-2025,No,1632,Emergency,Evening,Tuesday
+E1427,Ultrasound,Radiology,O2427,P5427,09-02-2025 20.00,10-02-2025 1.00,Used,Yes,20-01-2025,No,2615,Scheduled,Evening,Sunday
+E1428,Ultrasound,Radiology,O2428,P5428,01-01-2025 23.00,02-01-2025 1.00,Idle,No,26-12-2024,No,2839,Scheduled,Evening,Wednesday
+E1429,Ventilator,Emergency,O2429,P5429,17-01-2025 19.00,17-01-2025 23.00,Used,Yes,23-12-2024,No,3239,Scheduled,Evening,Friday
+E1430,ECG,ICU,O2430,P5430,03-02-2025 12.00,03-02-2025 19.00,Used,No,12-01-2025,No,4776,Scheduled,Morning,Monday
+E1431,CT Scan,Emergency,O2431,P5431,22-01-2025 11.00,22-01-2025 16.00,Idle,No,13-12-2024,No,1987,Scheduled,Morning,Wednesday
+E1432,MRI,Emergency,O2432,P5432,31-01-2025 11.00,31-01-2025 15.00,Used,No,28-12-2024,No,2057,Emergency,Morning,Friday
+E1433,CT Scan,Cardiology,O2433,P5433,27-02-2025 19.00,27-02-2025 23.00,Used,No,09-12-2024,No,2613,Scheduled,Evening,Thursday
+E1434,ECG,Emergency,O2434,P5434,28-02-2025 13.00,28-02-2025 15.00,Used,Yes,20-12-2024,No,1544,Scheduled,Morning,Friday
+E1435,ECG,Radiology,O2435,P5435,23-01-2025 3.00,23-01-2025 9.00,Used,No,25-01-2025,No,2931,Scheduled,Night,Thursday
+E1436,ECG,Emergency,O2436,P5436,09-02-2025 19.00,09-02-2025 22.00,Idle,Yes,19-12-2024,No,2082,Emergency,Evening,Sunday
+E1437,CT Scan,Radiology,O2437,P5437,07-01-2025 7.00,07-01-2025 9.00,Used,Yes,17-01-2025,No,1808,Emergency,Morning,Tuesday
+E1438,ECG,Radiology,O2438,P5438,09-02-2025 10.00,09-02-2025 15.00,Idle,Yes,08-01-2025,No,1101,Scheduled,Morning,Sunday
+E1439,Ultrasound,Radiology,O2439,P5439,26-01-2025 7.00,26-01-2025 13.00,Idle,No,20-01-2025,Yes,2120,Scheduled,Morning,Sunday
+E1440,CT Scan,ICU,O2440,P5440,18-01-2025 11.00,18-01-2025 16.00,Used,No,12-12-2024,No,600,Scheduled,Morning,Saturday
+E1441,ECG,Cardiology,O2441,P5441,23-02-2025 1.00,23-02-2025 7.00,Maintenance,Yes,15-12-2024,No,4771,Scheduled,Night,Sunday
+E1442,Ultrasound,Radiology,O2442,P5442,17-02-2025 12.00,17-02-2025 19.00,Used,Yes,31-12-2024,No,737,Scheduled,Morning,Monday
+E1443,Ventilator,Radiology,O2443,P5443,06-02-2025 1.00,06-02-2025 6.00,Maintenance,Yes,24-01-2025,No,4525,Scheduled,Night,Thursday
+E1444,ECG,ICU,O2444,P5444,25-01-2025 1.00,25-01-2025 3.00,Used,No,14-12-2024,Yes,3418,Emergency,Night,Saturday
+E1445,CT Scan,Radiology,O2445,,14-01-2025 22.00,15-01-2025 4.00,Used,No,11-12-2024,No,3042,Emergency,Evening,Tuesday
+E1446,X-Ray,Emergency,O2446,P5446,02-03-2025 1.00,02-03-2025 7.00,Used,No,26-12-2024,No,2503,Emergency,Night,Sunday
+E1447,ECG,Emergency,O2447,P5447,08-02-2025 19.00,08-02-2025 23.00,Used,No,11-01-2025,No,2037,Scheduled,Evening,Saturday
+E1448,X-Ray,Cardiology,O2448,P5448,13-01-2025 6.00,13-01-2025 10.00,Used,No,27-12-2024,No,1254,Scheduled,Morning,Monday
+E1449,Ultrasound,Radiology,O2449,P5449,01-02-2025 10.00,01-02-2025 11.00,Idle,No,11-12-2024,No,3868,Scheduled,Morning,Saturday
+E1450,Ventilator,ICU,O2450,P5450,28-02-2025 2.00,28-02-2025 7.00,Used,No,07-01-2025,No,2758,Scheduled,Night,Friday
+E1451,MRI,Emergency,O2451,P5451,08-01-2025 17.00,08-01-2025 21.00,Used,No,03-01-2025,No,4165,Scheduled,Evening,Wednesday
+E1452,Ventilator,ICU,O2452,P5452,22-02-2025 21.00,22-02-2025 22.00,Idle,Yes,12-01-2025,No,4735,Scheduled,Evening,Saturday
+E1453,ECG,ICU,O2453,P5453,27-01-2025 12.00,27-01-2025 19.00,Used,Yes,19-12-2024,No,1040,Scheduled,Morning,Monday
+E1454,X-Ray,Emergency,O2454,P5454,23-02-2025 19.00,24-02-2025 2.00,Maintenance,No,06-12-2024,No,769,Emergency,Evening,Sunday
+E1455,X-Ray,ICU,O2455,P5455,22-02-2025 12.00,22-02-2025 16.00,Idle,No,15-01-2025,No,3960,Emergency,Morning,Saturday
+E1456,CT Scan,Emergency,O2456,P5456,23-01-2025 1.00,23-01-2025 6.00,Maintenance,No,21-01-2025,No,3908,Scheduled,Night,Thursday
+E1457,X-Ray,ICU,O2457,P5457,01-01-2025 20.00,02-01-2025 2.00,Idle,Yes,07-01-2025,No,1005,Scheduled,Evening,Wednesday
+E1458,CT Scan,Emergency,O2458,P5458,07-02-2025 22.00,08-02-2025 1.00,Used,Yes,18-01-2025,No,1629,Scheduled,Evening,Friday
+E1459,Ultrasound,Radiology,O2459,P5459,06-02-2025 2.00,06-02-2025 7.00,Used,No,11-01-2025,No,2579,Scheduled,Night,Thursday
+E1460,MRI,Cardiology,O2460,P5460,03-02-2025 1.00,03-02-2025 3.00,Idle,Yes,28-12-2024,No,3645,Scheduled,Night,Monday
+E1461,ECG,Emergency,O2461,P5461,05-01-2025 3.00,05-01-2025 10.00,Used,No,01-12-2024,No,3742,Emergency,Night,Sunday
+E1462,CT Scan,Emergency,O2462,P5462,01-02-2025 7.00,01-02-2025 11.00,Used,No,04-01-2025,Yes,861,Emergency,Morning,Saturday
+E1463,MRI,Cardiology,O2463,P5463,20-01-2025 21.00,21-01-2025 1.00,Used,Yes,09-01-2025,No,4220,Emergency,Evening,Monday
+E1464,X-Ray,Emergency,O2464,P5464,25-02-2025 1.00,25-02-2025 7.00,Maintenance,Yes,08-12-2024,No,1956,Scheduled,Night,Tuesday
+E1465,X-Ray,Emergency,O2465,P5465,09-02-2025 3.00,09-02-2025 5.00,Used,No,28-01-2025,No,4567,Emergency,Night,Sunday
+E1466,MRI,ICU,O2466,P5466,22-01-2025 21.00,23-01-2025 3.00,Used,No,21-01-2025,No,4695,Scheduled,Evening,Wednesday
+E1467,X-Ray,Cardiology,O2467,P5467,14-01-2025 21.00,14-01-2025 23.00,Used,No,23-01-2025,No,2181,Scheduled,Evening,Tuesday
+E1468,Ultrasound,Radiology,O2468,P5468,01-01-2025 1.00,01-01-2025 4.00,Used,No,16-01-2025,No,1552,Scheduled,Night,Wednesday
+E1469,Ultrasound,Emergency,O2469,P5469,16-01-2025 14.00,16-01-2025 21.00,Used,Yes,25-01-2025,No,3009,Emergency,Evening,Thursday
+E1470,MRI,Cardiology,O2470,P5470,13-01-2025 4.00,13-01-2025 8.00,Used,No,07-12-2024,Yes,1181,Scheduled,Night,Monday
+E1471,CT Scan,ICU,O2471,P5471,04-02-2025 20.00,05-02-2025 0.00,Used,No,11-12-2024,No,4432,Scheduled,Evening,Tuesday
+E1472,CT Scan,Radiology,O2472,P5472,11-02-2025 20.00,11-02-2025 23.00,Idle,Yes,08-01-2025,No,2629,Scheduled,Evening,Tuesday
+E1473,MRI,Cardiology,O2473,P5473,24-01-2025 0.00,24-01-2025 1.00,Used,No,04-12-2024,No,4516,Scheduled,Night,Friday
+E1474,CT Scan,Radiology,O2474,P5474,14-01-2025 5.00,14-01-2025 12.00,Idle,No,25-12-2024,Yes,3802,Emergency,Night,Tuesday
+E1475,CT Scan,Radiology,O2475,P5475,16-01-2025 20.00,17-01-2025 2.00,Idle,No,12-12-2024,No,1219,Scheduled,Evening,Thursday
+E1476,Ultrasound,Radiology,O2476,P5476,01-01-2025 13.00,01-01-2025 16.00,Used,Yes,26-12-2024,No,574,Scheduled,Morning,Wednesday
+E1477,CT Scan,Emergency,O2477,P5477,21-01-2025 23.00,22-01-2025 5.00,Used,No,07-01-2025,No,1793,Scheduled,Evening,Tuesday
+E1478,Ventilator,Emergency,O2478,P5478,10-01-2025 14.00,10-01-2025 19.00,Used,No,15-01-2025,No,2422,Scheduled,Evening,Friday
+E1479,ECG,ICU,O2479,P5479,16-02-2025 3.00,16-02-2025 7.00,Idle,No,12-12-2024,Yes,4657,Scheduled,Night,Sunday
+E1480,X-Ray,ICU,O2480,P5480,06-01-2025 9.00,06-01-2025 15.00,Used,Yes,12-01-2025,No,819,Emergency,Morning,Monday
+E1481,Ventilator,Cardiology,O2481,P5481,04-02-2025 21.00,04-02-2025 23.00,Used,No,20-01-2025,No,2649,Scheduled,Evening,Tuesday
+E1482,CT Scan,ICU,O2482,P5482,18-02-2025 16.00,18-02-2025 22.00,Used,No,22-01-2025,No,1952,Scheduled,Evening,Tuesday
+E1483,Ultrasound,Radiology,O2483,,07-02-2025 2.00,07-02-2025 7.00,Used,No,06-01-2025,No,2055,Scheduled,Night,Friday
+E1484,MRI,Radiology,O2484,,02-01-2025 3.00,02-01-2025 10.00,Used,No,15-01-2025,No,4707,Scheduled,Night,Thursday
+E1485,CT Scan,Emergency,O2485,P5485,03-01-2025 17.00,03-01-2025 21.00,Used,No,22-01-2025,No,3532,Scheduled,Evening,Friday
+E1486,Ultrasound,Radiology,O2486,P5486,19-02-2025 10.00,19-02-2025 13.00,Idle,No,24-12-2024,No,960,Scheduled,Morning,Wednesday
+E1487,ECG,Cardiology,O2487,P5487,22-02-2025 4.00,22-02-2025 9.00,Used,No,16-12-2024,No,1386,Emergency,Night,Saturday
+E1488,CT Scan,Radiology,O2488,P5488,11-01-2025 20.00,12-01-2025 0.00,Used,,26-01-2025,No,4033,Scheduled,Evening,Saturday
+E1489,MRI,Radiology,O2489,P5489,03-03-2025 8.00,03-03-2025 14.00,Used,No,13-12-2024,No,4436,Scheduled,Morning,Monday
+E1490,Ultrasound,Cardiology,O2490,P5490,02-03-2025 7.00,02-03-2025 14.00,Idle,No,25-12-2024,No,1615,Scheduled,Morning,Sunday
+E1491,Ultrasound,ICU,O2491,P5491,20-01-2025 3.00,20-01-2025 4.00,Used,No,23-01-2025,No,1575,Scheduled,Night,Monday
+E1492,Ultrasound,ICU,O2492,P5492,13-01-2025 12.00,13-01-2025 19.00,Idle,No,23-01-2025,No,4376,Scheduled,Morning,Monday
+E1493,ECG,Cardiology,O2493,P5493,08-02-2025 6.00,08-02-2025 7.00,Used,No,26-01-2025,No,2424,Emergency,Morning,Saturday
+E1494,CT Scan,Emergency,O2494,P5494,25-02-2025 6.00,25-02-2025 8.00,Used,Yes,21-01-2025,No,1426,Scheduled,Morning,Tuesday
+E1495,ECG,Radiology,O2495,P5495,12-01-2025 22.00,13-01-2025 5.00,Used,No,23-01-2025,No,2781,Scheduled,Evening,Sunday
+E1496,X-Ray,Cardiology,O2496,P5496,01-03-2025 2.00,01-03-2025 6.00,Used,No,04-12-2024,No,1555,Scheduled,Night,Saturday
+E1497,X-Ray,Radiology,O2497,P5497,13-02-2025 1.00,13-02-2025 2.00,Used,No,11-12-2024,No,1041,Scheduled,Night,Thursday
+E1498,CT Scan,Emergency,O2498,,27-01-2025 5.00,27-01-2025 8.00,Used,No,01-01-2025,No,2661,Scheduled,Night,Monday
+E1499,ECG,Radiology,O2499,P5499,12-01-2025 5.00,12-01-2025 9.00,Idle,No,18-01-2025,Yes,2751,Emergency,Night,Sunday
+E1500,MRI,Cardiology,O2500,P5500,25-01-2025 15.00,25-01-2025 18.00,Used,No,07-12-2024,No,1552,Scheduled,Evening,Saturday
+E1501,Ultrasound,Radiology,O2501,P5501,05-02-2025 3.00,05-02-2025 10.00,Used,No,15-01-2025,No,3244,Scheduled,Night,Wednesday
+E1502,Ultrasound,ICU,O2502,P5502,05-02-2025 21.00,06-02-2025 0.00,Used,No,27-01-2025,Yes,4369,Emergency,Evening,Wednesday
+E1503,CT Scan,Emergency,O2503,P5503,27-02-2025 16.00,27-02-2025 17.00,Used,No,11-12-2024,Yes,4981,Emergency,Evening,Thursday
+E1504,X-Ray,Emergency,O2504,P5504,23-02-2025 8.00,23-02-2025 12.00,Used,No,28-12-2024,No,4657,Scheduled,Morning,Sunday
+E1505,X-Ray,Emergency,O2505,P5505,06-01-2025 12.00,06-01-2025 18.00,Used,No,23-01-2025,No,2060,Emergency,Morning,Monday
+E1506,Ultrasound,Cardiology,O2506,P5506,24-02-2025 3.00,24-02-2025 8.00,Used,Yes,10-01-2025,No,4262,Scheduled,Night,Monday
+E1507,CT Scan,Emergency,O2507,P5507,10-02-2025 11.00,10-02-2025 12.00,Used,Yes,23-12-2024,No,1664,Emergency,Morning,Monday
+E1508,ECG,ICU,O2508,P5508,22-01-2025 8.00,22-01-2025 9.00,Used,No,14-01-2025,No,3222,Emergency,Morning,Wednesday
+E1509,X-Ray,Cardiology,O2509,P5509,14-01-2025 0.00,14-01-2025 6.00,Used,Yes,23-12-2024,No,2858,Scheduled,Night,Tuesday
+E1510,ECG,ICU,O2510,P5510,24-01-2025 23.00,25-01-2025 3.00,Used,No,19-01-2025,No,970,Scheduled,Evening,Friday
+E1511,X-Ray,Radiology,O2511,P5511,06-02-2025 21.00,07-02-2025 1.00,Used,No,28-12-2024,No,1916,Scheduled,Evening,Thursday
+E1512,X-Ray,Radiology,O2512,P5512,24-02-2025 11.00,24-02-2025 18.00,Maintenance,No,12-01-2025,No,1968,Scheduled,Morning,Monday
+E1513,Ventilator,Radiology,O2513,P5513,17-02-2025 16.00,17-02-2025 19.00,Used,No,16-01-2025,No,1308,Scheduled,Evening,Monday
+E1514,X-Ray,Radiology,O2514,P5514,17-02-2025 2.00,17-02-2025 9.00,Used,Yes,26-01-2025,Yes,671,Scheduled,Night,Monday
+E1515,MRI,ICU,O2515,P5515,29-01-2025 14.00,29-01-2025 20.00,Used,,26-12-2024,No,4626,Scheduled,Evening,Wednesday
+E1516,CT Scan,Cardiology,O2516,P5516,21-02-2025 3.00,21-02-2025 10.00,Idle,No,25-12-2024,No,4642,Scheduled,Night,Friday
+E1517,CT Scan,Cardiology,O2517,P5517,07-01-2025 20.00,08-01-2025 2.00,Idle,No,23-01-2025,No,4725,Emergency,Evening,Tuesday
+E1518,ECG,Emergency,O2518,P5518,13-01-2025 16.00,13-01-2025 20.00,Used,Yes,29-12-2024,No,2899,Emergency,Evening,Monday
+E1519,X-Ray,ICU,O2519,P5519,07-01-2025 11.00,07-01-2025 14.00,Maintenance,No,19-12-2024,No,2145,Scheduled,Morning,Tuesday
+E1520,MRI,Radiology,O2520,P5520,27-02-2025 22.00,28-02-2025 5.00,Used,Yes,02-01-2025,No,557,Scheduled,Evening,Thursday
+E1521,ECG,ICU,O2521,P5521,26-01-2025 19.00,26-01-2025 20.00,Used,No,05-01-2025,No,1629,Emergency,Evening,Sunday
+E1522,Ventilator,Emergency,O2522,P5522,23-02-2025 2.00,23-02-2025 4.00,Idle,Yes,14-12-2024,No,1853,Emergency,Night,Sunday
+E1523,ECG,Emergency,O2523,P5523,09-02-2025 20.00,10-02-2025 1.00,Idle,Yes,14-12-2024,No,1267,Emergency,Evening,Sunday
+E1524,ECG,ICU,O2524,P5524,14-01-2025 21.00,14-01-2025 22.00,Used,No,04-01-2025,No,4395,Scheduled,Evening,Tuesday
+E1525,X-Ray,ICU,O2525,P5525,10-02-2025 8.00,10-02-2025 12.00,Used,No,30-12-2024,No,1182,Scheduled,Morning,Monday
+E1526,Ventilator,ICU,O2526,P5526,22-01-2025 6.00,22-01-2025 11.00,Used,No,28-12-2024,No,3954,Emergency,Morning,Wednesday
+E1527,ECG,Cardiology,O2527,P5527,24-02-2025 20.00,24-02-2025 22.00,Used,No,17-12-2024,No,2508,Scheduled,Evening,Monday
+E1528,MRI,Radiology,O2528,P5528,13-02-2025 11.00,13-02-2025 13.00,Idle,No,03-12-2024,No,3642,Scheduled,Morning,Thursday
+E1529,MRI,ICU,O2529,P5529,12-01-2025 17.00,12-01-2025 20.00,Used,Yes,16-12-2024,Yes,2290,Scheduled,Evening,Sunday
+E1530,CT Scan,ICU,O2530,P5530,03-02-2025 4.00,03-02-2025 9.00,Used,No,15-01-2025,Yes,1977,Emergency,Night,Monday
+E1531,Ventilator,ICU,O2531,P5531,12-02-2025 16.00,12-02-2025 19.00,Used,No,30-12-2024,No,1385,Scheduled,Evening,Wednesday
+E1532,Ventilator,Emergency,O2532,P5532,05-01-2025 22.00,05-01-2025 23.00,Used,No,21-01-2025,No,4406,Scheduled,Evening,Sunday
+E1533,CT Scan,Emergency,O2533,,14-02-2025 2.00,14-02-2025 8.00,Used,Yes,29-12-2024,No,4992,Scheduled,Night,Friday
+E1534,ECG,Cardiology,O2534,P5534,09-01-2025 5.00,09-01-2025 11.00,Used,No,14-01-2025,No,2038,Emergency,Night,Thursday
+E1535,Ventilator,Radiology,O2535,P5535,21-01-2025 4.00,21-01-2025 10.00,Maintenance,No,15-12-2024,No,2573,Scheduled,Night,Tuesday
+E1536,MRI,Cardiology,O2536,P5536,15-02-2025 2.00,15-02-2025 7.00,Idle,No,15-01-2025,No,812,Scheduled,Night,Saturday
+E1537,MRI,Radiology,O2537,P5537,04-02-2025 20.00,05-02-2025 2.00,Used,Yes,25-01-2025,No,1310,Scheduled,Evening,Tuesday
+E1538,X-Ray,Emergency,O2538,P5538,19-02-2025 8.00,19-02-2025 9.00,Idle,No,25-12-2024,No,2735,Emergency,Morning,Wednesday
+E1539,Ventilator,Emergency,O2539,P5539,12-02-2025 0.00,12-02-2025 3.00,Idle,Yes,20-01-2025,No,3357,Scheduled,Night,Wednesday
+E1540,ECG,Emergency,O2540,,29-01-2025 18.00,29-01-2025 23.00,Idle,Yes,07-01-2025,No,3263,Emergency,Evening,Wednesday
+E1541,CT Scan,Cardiology,O2541,P5541,21-02-2025 5.00,21-02-2025 8.00,Used,No,11-01-2025,No,2532,Scheduled,Night,Friday
+E1542,CT Scan,ICU,O2542,P5542,13-02-2025 3.00,13-02-2025 8.00,Used,Yes,28-01-2025,No,2007,Scheduled,Night,Thursday
+E1543,ECG,ICU,O2543,P5543,21-01-2025 9.00,21-01-2025 12.00,Used,No,16-01-2025,No,3070,Scheduled,Morning,Tuesday
+E1544,Ultrasound,Emergency,O2544,P5544,12-01-2025 11.00,12-01-2025 13.00,Used,Yes,22-01-2025,No,2394,Scheduled,Morning,Sunday
+E1545,X-Ray,ICU,O2545,,29-01-2025 20.00,29-01-2025 23.00,Used,No,23-01-2025,No,3205,Scheduled,Evening,Wednesday
+E1546,CT Scan,ICU,O2546,P5546,11-01-2025 1.00,11-01-2025 7.00,Used,No,21-01-2025,No,1096,Scheduled,Night,Saturday
+E1547,Ventilator,Cardiology,O2547,P5547,21-02-2025 15.00,21-02-2025 17.00,Used,No,27-01-2025,No,2647,Scheduled,Evening,Friday
+E1548,X-Ray,Radiology,O2548,P5548,23-02-2025 2.00,23-02-2025 5.00,Idle,No,07-01-2025,No,1115,Emergency,Night,Sunday
+E1549,Ventilator,Emergency,O2549,P5549,06-01-2025 5.00,06-01-2025 10.00,Used,Yes,23-12-2024,No,1447,Scheduled,Night,Monday
+E1550,MRI,Emergency,O2550,P5550,10-01-2025 0.00,10-01-2025 5.00,Used,No,25-12-2024,No,4873,Scheduled,Night,Friday
+E1551,X-Ray,Cardiology,O2551,P5551,25-02-2025 9.00,25-02-2025 14.00,Maintenance,No,11-01-2025,No,4264,Scheduled,Morning,Tuesday
+E1552,CT Scan,Cardiology,O2552,P5552,20-02-2025 8.00,20-02-2025 12.00,Maintenance,Yes,07-12-2024,No,2513,Scheduled,Morning,Thursday
+E1553,X-Ray,ICU,O2553,P5553,14-02-2025 6.00,14-02-2025 7.00,Idle,No,22-12-2024,No,4197,Scheduled,Morning,Friday
+E1554,X-Ray,Emergency,O2554,P5554,21-02-2025 22.00,22-02-2025 3.00,Maintenance,No,17-12-2024,No,990,Scheduled,Evening,Friday
+E1555,X-Ray,Radiology,O2555,P5555,20-02-2025 7.00,20-02-2025 9.00,Used,Yes,18-12-2024,No,4850,Scheduled,Morning,Thursday
+E1556,Ultrasound,Cardiology,O2556,P5556,21-01-2025 14.00,21-01-2025 19.00,Maintenance,No,18-01-2025,Yes,2928,Scheduled,Evening,Tuesday
+E1557,X-Ray,Radiology,O2557,P5557,18-01-2025 18.00,18-01-2025 22.00,Used,Yes,10-01-2025,No,1041,Scheduled,Evening,Saturday
+E1558,Ventilator,Radiology,O2558,P5558,20-02-2025 1.00,20-02-2025 7.00,Used,,10-12-2024,No,1787,Scheduled,Night,Thursday
+E1559,MRI,Emergency,O2559,P5559,08-02-2025 6.00,08-02-2025 8.00,Used,No,10-12-2024,No,2133,Emergency,Morning,Saturday
+E1560,ECG,Emergency,O2560,P5560,02-03-2025 11.00,02-03-2025 15.00,Used,No,26-01-2025,No,3426,Emergency,Morning,Sunday
+E1561,X-Ray,Cardiology,O2561,P5561,24-02-2025 21.00,25-02-2025 3.00,Used,No,07-12-2024,No,1852,Scheduled,Evening,Monday
+E1562,CT Scan,Emergency,O2562,P5562,07-01-2025 6.00,07-01-2025 13.00,Used,No,17-01-2025,No,4876,Scheduled,Morning,Tuesday
+E1563,X-Ray,Emergency,O2563,P5563,16-01-2025 23.00,17-01-2025 6.00,Idle,Yes,19-01-2025,No,1798,Scheduled,Evening,Thursday
+E1564,CT Scan,Emergency,O2564,P5564,13-01-2025 19.00,13-01-2025 21.00,Used,No,07-01-2025,No,4467,Scheduled,Evening,Monday
+E1565,Ventilator,Radiology,O2565,P5565,26-02-2025 15.00,26-02-2025 18.00,Used,No,27-12-2024,No,4923,Emergency,Evening,Wednesday
+E1566,CT Scan,Cardiology,O2566,P5566,01-02-2025 1.00,01-02-2025 2.00,Idle,No,21-01-2025,No,2758,Scheduled,Night,Saturday
+E1567,ECG,ICU,O2567,P5567,07-02-2025 3.00,07-02-2025 4.00,Used,No,02-01-2025,No,2573,Emergency,Night,Friday
+E1568,MRI,Radiology,O2568,P5568,16-01-2025 14.00,16-01-2025 18.00,Used,No,01-12-2024,No,1201,Emergency,Evening,Thursday
+E1569,CT Scan,Emergency,O2569,,12-02-2025 23.00,13-02-2025 5.00,Used,No,13-01-2025,No,2419,Scheduled,Evening,Wednesday
+E1570,CT Scan,Radiology,O2570,P5570,26-02-2025 20.00,26-02-2025 21.00,Used,No,22-01-2025,No,2960,Emergency,Evening,Wednesday
+E1571,MRI,Emergency,O2571,P5571,06-01-2025 8.00,06-01-2025 14.00,Used,Yes,29-01-2025,No,4762,Scheduled,Morning,Monday
+E1572,ECG,Emergency,O2572,P5572,12-02-2025 6.00,12-02-2025 12.00,Maintenance,Yes,03-01-2025,No,4764,Scheduled,Morning,Wednesday
+E1573,X-Ray,Radiology,O2573,P5573,28-01-2025 20.00,29-01-2025 0.00,Used,Yes,04-12-2024,No,4824,Scheduled,Evening,Tuesday
+E1574,CT Scan,Cardiology,O2574,P5574,27-02-2025 7.00,27-02-2025 11.00,Used,No,17-12-2024,No,866,Emergency,Morning,Thursday
+E1575,MRI,Emergency,O2575,P5575,27-02-2025 13.00,27-02-2025 17.00,Idle,No,04-12-2024,No,1027,Scheduled,Morning,Thursday
+E1576,Ventilator,Cardiology,O2576,P5576,22-01-2025 12.00,22-01-2025 13.00,Idle,No,12-01-2025,Yes,4218,Emergency,Morning,Wednesday
+E1577,MRI,ICU,O2577,,04-01-2025 13.00,04-01-2025 20.00,Used,No,23-01-2025,No,4109,Scheduled,Morning,Saturday
+E1578,Ventilator,Emergency,O2578,P5578,19-02-2025 22.00,20-02-2025 2.00,Used,No,26-12-2024,No,4435,Scheduled,Evening,Wednesday
+E1579,ECG,Cardiology,O2579,P5579,20-02-2025 16.00,20-02-2025 17.00,Used,,04-12-2024,No,2653,Scheduled,Evening,Thursday
+E1580,X-Ray,Cardiology,O2580,P5580,13-01-2025 22.00,14-01-2025 2.00,Used,Yes,01-12-2024,No,2408,Emergency,Evening,Monday
+E1581,MRI,ICU,O2581,P5581,17-02-2025 14.00,17-02-2025 19.00,Used,Yes,07-12-2024,No,3512,Scheduled,Evening,Monday
+E1582,Ultrasound,Cardiology,O2582,P5582,21-02-2025 17.00,21-02-2025 23.00,Used,No,30-12-2024,No,4728,Scheduled,Evening,Friday
+E1583,CT Scan,Cardiology,O2583,P5583,18-01-2025 18.00,18-01-2025 22.00,Maintenance,No,19-01-2025,Yes,3522,Emergency,Evening,Saturday
+E1584,ECG,ICU,O2584,P5584,01-03-2025 21.00,01-03-2025 23.00,Used,No,09-12-2024,No,3983,Scheduled,Evening,Saturday
+E1585,MRI,Emergency,O2585,P5585,05-01-2025 17.00,05-01-2025 23.00,Used,Yes,04-01-2025,No,3220,Scheduled,Evening,Sunday
+E1586,CT Scan,Cardiology,O2586,,18-02-2025 16.00,18-02-2025 22.00,Used,Yes,08-12-2024,No,2270,Emergency,Evening,Tuesday
+E1587,MRI,Cardiology,O2587,P5587,13-01-2025 14.00,13-01-2025 18.00,Used,No,24-12-2024,No,4613,Emergency,Evening,Monday
+E1588,Ventilator,Cardiology,O2588,P5588,31-01-2025 23.00,01-02-2025 6.00,Used,,19-12-2024,No,2277,Scheduled,Evening,Friday
+E1589,MRI,Radiology,O2589,P5589,25-01-2025 11.00,25-01-2025 14.00,Used,Yes,05-01-2025,No,4712,Emergency,Morning,Saturday
+E1590,Ultrasound,ICU,O2590,P5590,11-02-2025 2.00,11-02-2025 9.00,Idle,No,19-01-2025,No,1297,Emergency,Night,Tuesday
+E1591,MRI,Radiology,O2591,P5591,15-01-2025 8.00,15-01-2025 12.00,Used,Yes,21-01-2025,No,3715,Scheduled,Morning,Wednesday
+E1592,MRI,ICU,O2592,P5592,03-02-2025 21.00,04-02-2025 3.00,Used,No,28-01-2025,No,4288,Scheduled,Evening,Monday
+E1593,Ultrasound,Emergency,O2593,P5593,03-02-2025 8.00,03-02-2025 10.00,Used,No,12-01-2025,No,3476,Scheduled,Morning,Monday
+E1594,ECG,Emergency,O2594,P5594,12-02-2025 16.00,12-02-2025 22.00,Used,Yes,27-12-2024,No,4237,Scheduled,Evening,Wednesday
+E1595,MRI,Cardiology,O2595,P5595,18-02-2025 18.00,19-02-2025 1.00,Used,No,01-01-2025,Yes,2211,Scheduled,Evening,Tuesday
+E1596,Ultrasound,ICU,O2596,P5596,24-02-2025 14.00,24-02-2025 16.00,Used,No,14-12-2024,No,1252,Emergency,Evening,Monday
+E1597,CT Scan,Emergency,O2597,P5597,14-02-2025 20.00,14-02-2025 21.00,Used,No,26-01-2025,No,2969,Scheduled,Evening,Friday
+E1598,Ventilator,ICU,O2598,P5598,25-02-2025 7.00,25-02-2025 12.00,Used,No,18-12-2024,No,4469,Scheduled,Morning,Tuesday
+E1599,Ventilator,Emergency,O2599,P5599,15-02-2025 12.00,15-02-2025 18.00,Idle,Yes,28-12-2024,No,1892,Emergency,Morning,Saturday
+E1600,MRI,Radiology,O2600,P5600,16-01-2025 0.00,16-01-2025 4.00,Maintenance,No,29-01-2025,No,3105,Scheduled,Night,Thursday
+E1601,ECG,Emergency,O2601,P5601,21-02-2025 19.00,21-02-2025 20.00,Idle,Yes,29-12-2024,No,1177,Scheduled,Evening,Friday
+E1602,ECG,Radiology,O2602,P5602,12-02-2025 1.00,12-02-2025 6.00,Idle,No,16-12-2024,No,605,Emergency,Night,Wednesday
+E1603,CT Scan,Emergency,O2603,P5603,30-01-2025 7.00,30-01-2025 11.00,Used,No,04-01-2025,No,3787,Emergency,Morning,Thursday
+E1604,MRI,Cardiology,O2604,P5604,24-01-2025 22.00,25-01-2025 1.00,Maintenance,No,16-01-2025,No,2446,Scheduled,Evening,Friday
+E1605,Ventilator,Radiology,O2605,P5605,19-02-2025 8.00,19-02-2025 12.00,Used,No,28-01-2025,No,1595,Scheduled,Morning,Wednesday
+E1606,ECG,Emergency,O2606,P5606,16-02-2025 8.00,16-02-2025 10.00,Maintenance,Yes,28-01-2025,No,2282,Scheduled,Morning,Sunday
+E1607,MRI,Cardiology,O2607,P5607,29-01-2025 15.00,29-01-2025 17.00,Maintenance,Yes,31-12-2024,No,3757,Scheduled,Evening,Wednesday
+E1608,ECG,Radiology,O2608,P5608,02-02-2025 12.00,02-02-2025 15.00,Idle,No,04-12-2024,No,2497,Emergency,Morning,Sunday
+E1609,Ultrasound,Cardiology,O2609,P5609,25-01-2025 8.00,25-01-2025 9.00,Maintenance,No,06-01-2025,No,2061,Emergency,Morning,Saturday
+E1610,ECG,ICU,O2610,P5610,25-01-2025 12.00,25-01-2025 17.00,Used,No,17-12-2024,Yes,4506,Emergency,Morning,Saturday
+E1611,Ventilator,ICU,O2611,P5611,19-02-2025 6.00,19-02-2025 10.00,Used,Yes,08-01-2025,No,2175,Emergency,Morning,Wednesday
+E1612,X-Ray,Radiology,O2612,P5612,21-01-2025 8.00,21-01-2025 10.00,Used,No,17-01-2025,No,1622,Emergency,Morning,Tuesday
+E1613,CT Scan,Emergency,O2613,P5613,10-02-2025 10.00,10-02-2025 11.00,Used,Yes,15-01-2025,No,4481,Scheduled,Morning,Monday
+E1614,CT Scan,Radiology,O2614,P5614,26-02-2025 3.00,26-02-2025 6.00,Used,No,26-12-2024,No,1801,Scheduled,Night,Wednesday
+E1615,Ventilator,Cardiology,O2615,P5615,28-02-2025 12.00,28-02-2025 19.00,Used,,17-01-2025,No,1443,Scheduled,Morning,Friday
+E1616,ECG,Emergency,O2616,P5616,16-02-2025 21.00,17-02-2025 3.00,Maintenance,No,08-01-2025,No,1445,Emergency,Evening,Sunday
+E1617,MRI,ICU,O2617,P5617,21-01-2025 13.00,21-01-2025 20.00,Used,No,10-01-2025,No,1100,Scheduled,Morning,Tuesday
+E1618,ECG,Emergency,O2618,P5618,01-01-2025 18.00,02-01-2025 1.00,Idle,No,04-12-2024,No,3200,Scheduled,Evening,Wednesday
+E1619,Ventilator,ICU,O2619,P5619,03-03-2025 13.00,03-03-2025 15.00,Maintenance,No,30-12-2024,Yes,1917,Emergency,Morning,Monday
+E1620,CT Scan,Emergency,O2620,P5620,17-01-2025 12.00,17-01-2025 15.00,Maintenance,No,30-12-2024,Yes,2024,Scheduled,Morning,Friday
+E1621,ECG,Emergency,O2621,P5621,11-02-2025 16.00,11-02-2025 20.00,Maintenance,No,22-12-2024,No,4266,Scheduled,Evening,Tuesday
+E1622,CT Scan,Emergency,O2622,P5622,24-02-2025 6.00,24-02-2025 13.00,Used,No,11-12-2024,Yes,750,Emergency,Morning,Monday
+E1623,MRI,Cardiology,O2623,P5623,05-02-2025 10.00,05-02-2025 17.00,Maintenance,No,02-12-2024,No,2044,Scheduled,Morning,Wednesday
+E1624,CT Scan,Cardiology,O2624,P5624,27-02-2025 20.00,28-02-2025 1.00,Idle,No,13-01-2025,No,578,Emergency,Evening,Thursday
+E1625,CT Scan,Radiology,O2625,P5625,26-02-2025 10.00,26-02-2025 12.00,Used,No,12-12-2024,No,3623,Scheduled,Morning,Wednesday
+E1626,X-Ray,Radiology,O2626,P5626,26-02-2025 23.00,27-02-2025 1.00,Used,No,30-12-2024,No,1397,Scheduled,Evening,Wednesday
+E1627,X-Ray,ICU,O2627,P5627,04-02-2025 5.00,04-02-2025 9.00,Idle,No,05-01-2025,No,725,Scheduled,Night,Tuesday
+E1628,Ultrasound,Cardiology,O2628,P5628,19-01-2025 22.00,20-01-2025 4.00,Used,Yes,18-12-2024,No,1709,Emergency,Evening,Sunday
+E1629,X-Ray,ICU,O2629,P5629,31-01-2025 4.00,31-01-2025 5.00,Used,,26-12-2024,No,2678,Scheduled,Night,Friday
+E1630,CT Scan,Radiology,O2630,P5630,15-02-2025 8.00,15-02-2025 13.00,Used,No,22-01-2025,No,3179,Scheduled,Morning,Saturday
+E1631,Ventilator,ICU,O2631,P5631,15-02-2025 19.00,15-02-2025 21.00,Used,No,07-12-2024,No,3385,Scheduled,Evening,Saturday
+E1632,CT Scan,Radiology,O2632,P5632,30-01-2025 14.00,30-01-2025 19.00,Used,No,01-12-2024,No,3306,Scheduled,Evening,Thursday
+E1633,Ventilator,Cardiology,O2633,P5633,06-01-2025 22.00,07-01-2025 0.00,Idle,,27-01-2025,No,1203,Scheduled,Evening,Monday
+E1634,Ventilator,Emergency,O2634,P5634,08-02-2025 4.00,08-02-2025 9.00,Used,No,26-12-2024,No,3044,Scheduled,Night,Saturday
+E1635,X-Ray,Cardiology,O2635,P5635,04-02-2025 11.00,04-02-2025 14.00,Used,Yes,23-12-2024,No,2870,Scheduled,Morning,Tuesday
+E1636,ECG,ICU,O2636,P5636,26-01-2025 4.00,26-01-2025 11.00,Used,No,26-12-2024,No,3781,Scheduled,Night,Sunday
+E1637,MRI,ICU,O2637,P5637,04-03-2025 8.00,04-03-2025 10.00,Used,No,14-01-2025,No,828,Scheduled,Morning,Tuesday
+E1638,X-Ray,Cardiology,O2638,P5638,02-03-2025 0.00,02-03-2025 5.00,Maintenance,No,06-12-2024,No,4728,Scheduled,Night,Sunday
+E1639,X-Ray,Cardiology,O2639,P5639,13-01-2025 16.00,13-01-2025 17.00,Used,No,06-12-2024,No,620,Scheduled,Evening,Monday
+E1640,ECG,Radiology,O2640,P5640,31-01-2025 15.00,31-01-2025 18.00,Used,No,13-01-2025,No,1464,Scheduled,Evening,Friday
+E1641,MRI,ICU,O2641,P5641,13-01-2025 2.00,13-01-2025 5.00,Used,Yes,08-12-2024,No,4724,Scheduled,Night,Monday
+E1642,CT Scan,ICU,O2642,P5642,05-01-2025 5.00,05-01-2025 6.00,Used,No,24-12-2024,No,4175,Scheduled,Night,Sunday
+E1643,Ultrasound,Cardiology,O2643,P5643,23-02-2025 18.00,23-02-2025 23.00,Idle,No,22-12-2024,No,2576,Scheduled,Evening,Sunday
+E1644,Ultrasound,Emergency,O2644,,06-02-2025 2.00,06-02-2025 6.00,Idle,Yes,19-12-2024,No,832,Emergency,Night,Thursday
+E1645,CT Scan,ICU,O2645,P5645,10-02-2025 7.00,10-02-2025 8.00,Used,Yes,06-01-2025,No,3868,Scheduled,Morning,Monday
+E1646,X-Ray,Emergency,O2646,P5646,10-02-2025 13.00,10-02-2025 18.00,Used,Yes,18-12-2024,No,1816,Scheduled,Morning,Monday
+E1647,MRI,Cardiology,O2647,P5647,05-02-2025 1.00,05-02-2025 2.00,Used,No,31-12-2024,No,1696,Emergency,Night,Wednesday
+E1648,X-Ray,Cardiology,O2648,P5648,10-02-2025 1.00,10-02-2025 2.00,Used,Yes,06-01-2025,No,3670,Scheduled,Night,Monday
+E1649,Ventilator,Radiology,O2649,P5649,09-02-2025 5.00,09-02-2025 7.00,Used,,30-12-2024,No,1929,Emergency,Night,Sunday
+E1650,X-Ray,ICU,O2650,P5650,12-02-2025 18.00,12-02-2025 23.00,Used,No,26-01-2025,No,855,Emergency,Evening,Wednesday
+E1651,X-Ray,Emergency,O2651,P5651,04-01-2025 12.00,04-01-2025 16.00,Used,No,11-01-2025,No,4734,Emergency,Morning,Saturday
+E1652,CT Scan,Radiology,O2652,P5652,14-01-2025 15.00,14-01-2025 22.00,Used,Yes,02-01-2025,No,2026,Scheduled,Evening,Tuesday
+E1653,CT Scan,ICU,O2653,P5653,03-02-2025 23.00,04-02-2025 1.00,Maintenance,,10-12-2024,No,4397,Scheduled,Evening,Monday
+E1654,CT Scan,Radiology,O2654,P5654,03-03-2025 9.00,03-03-2025 10.00,Maintenance,No,06-01-2025,No,528,Scheduled,Morning,Monday
+E1655,Ultrasound,Cardiology,O2655,P5655,19-01-2025 21.00,20-01-2025 4.00,Used,No,12-12-2024,No,1513,Scheduled,Evening,Sunday
+E1656,Ventilator,ICU,O2656,P5656,27-01-2025 4.00,27-01-2025 10.00,Idle,No,23-01-2025,No,3202,Scheduled,Night,Monday
+E1657,CT Scan,Radiology,O2657,P5657,21-02-2025 20.00,22-02-2025 3.00,Used,No,30-12-2024,No,1327,Scheduled,Evening,Friday
+E1658,MRI,Radiology,O2658,P5658,19-02-2025 1.00,19-02-2025 2.00,Used,No,27-12-2024,No,4946,Scheduled,Night,Wednesday
+E1659,Ultrasound,Emergency,O2659,P5659,28-01-2025 16.00,28-01-2025 17.00,Idle,No,08-01-2025,No,2524,Scheduled,Evening,Tuesday
+E1660,ECG,Radiology,O2660,P5660,01-01-2025 11.00,01-01-2025 16.00,Maintenance,No,09-12-2024,No,798,Emergency,Morning,Wednesday
+E1661,MRI,ICU,O2661,P5661,18-02-2025 4.00,18-02-2025 9.00,Maintenance,Yes,23-01-2025,No,2365,Emergency,Night,Tuesday
+E1662,MRI,ICU,O2662,P5662,13-01-2025 15.00,13-01-2025 17.00,Used,Yes,21-12-2024,No,4516,Scheduled,Evening,Monday
+E1663,CT Scan,Emergency,O2663,P5663,24-02-2025 20.00,25-02-2025 0.00,Used,Yes,12-12-2024,No,2611,Scheduled,Evening,Monday
+E1664,ECG,ICU,O2664,P5664,10-02-2025 14.00,10-02-2025 16.00,Idle,No,24-01-2025,No,1254,Emergency,Evening,Monday
+E1665,ECG,Cardiology,O2665,P5665,25-02-2025 3.00,25-02-2025 6.00,Used,No,29-12-2024,No,1269,Emergency,Night,Tuesday
+E1666,Ultrasound,ICU,O2666,P5666,02-02-2025 14.00,02-02-2025 15.00,Used,No,02-01-2025,No,4235,Scheduled,Evening,Sunday
+E1667,ECG,ICU,O2667,P5667,02-01-2025 18.00,03-01-2025 1.00,Used,No,12-01-2025,No,1738,Scheduled,Evening,Thursday
+E1668,Ventilator,Radiology,O2668,P5668,09-02-2025 7.00,09-02-2025 13.00,Used,No,22-01-2025,No,2713,Scheduled,Morning,Sunday
+E1669,CT Scan,Radiology,O2669,P5669,15-01-2025 6.00,15-01-2025 7.00,Used,No,15-12-2024,No,2406,Scheduled,Morning,Wednesday
+E1670,ECG,ICU,O2670,P5670,26-02-2025 5.00,26-02-2025 6.00,Used,No,02-12-2024,No,2064,Scheduled,Night,Wednesday
+E1671,Ultrasound,Emergency,O2671,P5671,21-01-2025 17.00,21-01-2025 19.00,Maintenance,No,21-01-2025,Yes,1718,Scheduled,Evening,Tuesday
+E1672,Ventilator,Radiology,O2672,P5672,16-01-2025 3.00,16-01-2025 9.00,Used,No,08-01-2025,No,1857,Scheduled,Night,Thursday
+E1673,X-Ray,Emergency,O2673,,07-02-2025 2.00,07-02-2025 8.00,Used,Yes,22-01-2025,No,4339,Emergency,Night,Friday
+E1674,X-Ray,ICU,O2674,P5674,18-01-2025 18.00,19-01-2025 0.00,Used,Yes,13-01-2025,No,1960,Scheduled,Evening,Saturday
+E1675,Ventilator,ICU,O2675,P5675,11-02-2025 20.00,11-02-2025 22.00,Used,No,23-01-2025,No,4485,Emergency,Evening,Tuesday
+E1676,Ultrasound,Cardiology,O2676,P5676,01-01-2025 20.00,01-01-2025 21.00,Used,No,18-12-2024,No,1916,Emergency,Evening,Wednesday
+E1677,Ventilator,Radiology,O2677,P5677,17-01-2025 22.00,18-01-2025 0.00,Used,No,03-12-2024,Yes,3353,Scheduled,Evening,Friday
+E1678,CT Scan,ICU,O2678,P5678,26-01-2025 18.00,26-01-2025 23.00,Idle,Yes,07-12-2024,No,1928,Scheduled,Evening,Sunday
+E1679,CT Scan,Cardiology,O2679,P5679,12-02-2025 6.00,12-02-2025 11.00,Used,No,12-01-2025,No,4878,Scheduled,Morning,Wednesday
+E1680,X-Ray,Radiology,O2680,P5680,14-01-2025 23.00,15-01-2025 1.00,Maintenance,No,18-12-2024,No,4974,Emergency,Evening,Tuesday
+E1681,ECG,ICU,O2681,P5681,17-02-2025 12.00,17-02-2025 18.00,Used,No,13-01-2025,No,4793,Scheduled,Morning,Monday
+E1682,Ultrasound,ICU,O2682,P5682,17-02-2025 19.00,17-02-2025 20.00,Used,No,07-01-2025,No,3562,Scheduled,Evening,Monday
+E1683,X-Ray,Radiology,O2683,P5683,17-01-2025 14.00,17-01-2025 16.00,Used,No,06-01-2025,No,3571,Scheduled,Evening,Friday
+E1684,ECG,Radiology,O2684,P5684,03-02-2025 0.00,03-02-2025 2.00,Used,No,27-01-2025,No,1055,Emergency,Night,Monday
+E1685,ECG,Radiology,O2685,P5685,30-01-2025 18.00,30-01-2025 20.00,Idle,No,02-01-2025,No,855,Scheduled,Evening,Thursday
+E1686,CT Scan,ICU,O2686,P5686,03-01-2025 2.00,03-01-2025 5.00,Used,Yes,13-01-2025,No,2063,Scheduled,Night,Friday
+E1687,MRI,ICU,O2687,P5687,14-01-2025 11.00,14-01-2025 16.00,Used,Yes,28-01-2025,No,4000,Emergency,Morning,Tuesday
+E1688,MRI,Cardiology,O2688,P5688,02-02-2025 20.00,03-02-2025 3.00,Idle,No,31-12-2024,Yes,1540,Scheduled,Evening,Sunday
+E1689,Ventilator,Emergency,O2689,P5689,06-01-2025 20.00,07-01-2025 2.00,Maintenance,No,27-01-2025,No,3186,Scheduled,Evening,Monday
+E1690,CT Scan,Radiology,O2690,P5690,20-01-2025 13.00,20-01-2025 17.00,Idle,No,11-12-2024,No,4974,Emergency,Morning,Monday
+E1691,ECG,ICU,O2691,P5691,02-02-2025 18.00,03-02-2025 1.00,Used,No,04-12-2024,No,3053,Emergency,Evening,Sunday
+E1692,Ultrasound,ICU,O2692,P5692,26-02-2025 13.00,26-02-2025 19.00,Idle,No,28-01-2025,Yes,2279,Emergency,Morning,Wednesday
+E1693,MRI,Radiology,O2693,P5693,10-02-2025 3.00,10-02-2025 7.00,Used,No,18-12-2024,No,575,Scheduled,Night,Monday
+E1694,ECG,Emergency,O2694,P5694,11-02-2025 23.00,12-02-2025 2.00,Used,No,04-12-2024,No,4826,Emergency,Evening,Tuesday
+E1695,MRI,Radiology,O2695,P5695,16-01-2025 12.00,16-01-2025 14.00,Used,No,18-01-2025,No,3819,Scheduled,Morning,Thursday
+E1696,MRI,Emergency,O2696,P5696,21-01-2025 13.00,21-01-2025 16.00,Used,No,03-01-2025,No,2849,Scheduled,Morning,Tuesday
+E1697,MRI,ICU,O2697,P5697,01-02-2025 6.00,01-02-2025 9.00,Used,No,29-12-2024,No,3273,Scheduled,Morning,Saturday
+E1698,Ultrasound,Emergency,O2698,P5698,19-02-2025 3.00,19-02-2025 10.00,Used,No,24-12-2024,No,2762,Emergency,Night,Wednesday
+E1699,CT Scan,Cardiology,O2699,,13-01-2025 2.00,13-01-2025 3.00,Idle,No,22-12-2024,No,3729,Emergency,Night,Monday
+E1700,Ultrasound,ICU,O2700,P5700,18-02-2025 15.00,18-02-2025 22.00,Used,Yes,02-12-2024,No,2616,Scheduled,Evening,Tuesday
+E1701,X-Ray,Cardiology,O2701,P5701,05-01-2025 9.00,05-01-2025 14.00,Used,No,13-01-2025,No,892,Scheduled,Morning,Sunday
+E1702,ECG,Radiology,O2702,,02-03-2025 3.00,02-03-2025 7.00,Used,No,06-12-2024,No,1608,Scheduled,Night,Sunday
+E1703,CT Scan,Radiology,O2703,P5703,28-01-2025 21.00,28-01-2025 23.00,Maintenance,Yes,11-01-2025,No,4862,Emergency,Evening,Tuesday
+E1704,CT Scan,Radiology,O2704,P5704,01-01-2025 1.00,01-01-2025 8.00,Used,No,25-12-2024,No,1110,Scheduled,Night,Wednesday
+E1705,CT Scan,Emergency,O2705,P5705,25-01-2025 12.00,25-01-2025 16.00,Used,No,24-01-2025,No,3275,Scheduled,Morning,Saturday
+E1706,CT Scan,ICU,O2706,P5706,27-01-2025 19.00,28-01-2025 1.00,Idle,Yes,26-01-2025,No,4498,Emergency,Evening,Monday
+E1707,Ultrasound,Radiology,O2707,P5707,04-01-2025 17.00,04-01-2025 21.00,Idle,No,21-12-2024,No,1172,Scheduled,Evening,Saturday
+E1708,CT Scan,Radiology,O2708,P5708,27-02-2025 0.00,27-02-2025 6.00,Used,Yes,24-01-2025,No,4177,Scheduled,Night,Thursday
+E1709,Ventilator,ICU,O2709,P5709,15-01-2025 13.00,15-01-2025 20.00,Used,Yes,28-01-2025,No,530,Emergency,Morning,Wednesday
+E1710,ECG,Radiology,O2710,P5710,03-03-2025 18.00,03-03-2025 23.00,Idle,No,16-12-2024,No,1900,Scheduled,Evening,Monday
+E1711,CT Scan,Cardiology,O2711,P5711,23-02-2025 14.00,23-02-2025 21.00,Used,No,31-12-2024,No,4571,Scheduled,Evening,Sunday
+E1712,ECG,ICU,O2712,P5712,27-02-2025 6.00,27-02-2025 12.00,Used,Yes,14-12-2024,No,1116,Emergency,Morning,Thursday
+E1713,Ventilator,ICU,O2713,P5713,17-02-2025 3.00,17-02-2025 7.00,Idle,No,08-01-2025,No,3286,Scheduled,Night,Monday
+E1714,Ventilator,ICU,O2714,P5714,14-02-2025 6.00,14-02-2025 10.00,Used,,28-12-2024,No,1370,Scheduled,Morning,Friday
+E1715,ECG,Cardiology,O2715,P5715,07-02-2025 20.00,08-02-2025 2.00,Used,Yes,01-01-2025,No,4696,Scheduled,Evening,Friday
+E1716,MRI,ICU,O2716,P5716,07-01-2025 14.00,07-01-2025 17.00,Used,Yes,28-12-2024,No,4104,Emergency,Evening,Tuesday
+E1717,X-Ray,Cardiology,O2717,P5717,09-02-2025 22.00,10-02-2025 3.00,Used,No,20-01-2025,No,1912,Scheduled,Evening,Sunday
+E1718,MRI,ICU,O2718,P5718,13-01-2025 23.00,14-01-2025 0.00,Used,No,24-01-2025,No,3239,Scheduled,Evening,Monday
+E1719,MRI,Emergency,O2719,P5719,22-02-2025 16.00,22-02-2025 18.00,Idle,No,18-01-2025,No,1440,Scheduled,Evening,Saturday
+E1720,Ultrasound,Radiology,O2720,P5720,19-01-2025 12.00,19-01-2025 16.00,Used,No,09-12-2024,No,840,Emergency,Morning,Sunday
+E1721,MRI,Emergency,O2721,P5721,13-01-2025 9.00,13-01-2025 11.00,Used,No,27-01-2025,No,3408,Scheduled,Morning,Monday
+E1722,CT Scan,Radiology,O2722,P5722,09-02-2025 15.00,09-02-2025 16.00,Used,No,14-01-2025,No,4633,Scheduled,Evening,Sunday
+E1723,Ultrasound,Cardiology,O2723,P5723,02-01-2025 11.00,02-01-2025 18.00,Used,No,22-12-2024,No,1159,Scheduled,Morning,Thursday
+E1724,Ultrasound,Emergency,O2724,P5724,16-02-2025 3.00,16-02-2025 5.00,Maintenance,No,01-01-2025,Yes,2533,Scheduled,Night,Sunday
+E1725,Ventilator,ICU,O2725,P5725,03-03-2025 11.00,03-03-2025 12.00,Used,No,05-12-2024,No,2060,Emergency,Morning,Monday
+E1726,MRI,Radiology,O2726,P5726,28-02-2025 16.00,28-02-2025 22.00,Used,Yes,23-12-2024,No,3957,Emergency,Evening,Friday
+E1727,Ventilator,Radiology,O2727,P5727,19-02-2025 19.00,19-02-2025 22.00,Used,Yes,05-12-2024,Yes,2156,Scheduled,Evening,Wednesday
+E1728,ECG,Emergency,O2728,P5728,28-02-2025 7.00,28-02-2025 11.00,Used,No,11-01-2025,No,3475,Emergency,Morning,Friday
+E1729,X-Ray,Cardiology,O2729,P5729,27-02-2025 17.00,27-02-2025 18.00,Used,No,22-01-2025,No,1549,Scheduled,Evening,Thursday
+E1730,Ultrasound,Emergency,O2730,P5730,24-01-2025 6.00,24-01-2025 8.00,Idle,Yes,01-01-2025,No,953,Emergency,Morning,Friday
+E1731,ECG,Cardiology,O2731,P5731,07-02-2025 2.00,07-02-2025 6.00,Maintenance,No,28-01-2025,No,2204,Scheduled,Night,Friday
+E1732,ECG,Cardiology,O2732,P5732,06-01-2025 20.00,06-01-2025 23.00,Used,No,10-12-2024,No,3284,Scheduled,Evening,Monday
+E1733,CT Scan,Radiology,O2733,P5733,06-02-2025 22.00,07-02-2025 4.00,Used,No,28-01-2025,No,1318,Scheduled,Evening,Thursday
+E1734,X-Ray,Emergency,O2734,P5734,17-02-2025 13.00,17-02-2025 20.00,Idle,,08-01-2025,No,512,Scheduled,Morning,Monday
+E1735,ECG,Emergency,O2735,P5735,24-02-2025 4.00,24-02-2025 8.00,Idle,No,27-01-2025,No,4479,Emergency,Night,Monday
+E1736,ECG,Cardiology,O2736,P5736,31-01-2025 5.00,31-01-2025 12.00,Used,No,15-12-2024,No,1420,Scheduled,Night,Friday
+E1737,X-Ray,Emergency,O2737,P5737,21-02-2025 19.00,21-02-2025 20.00,Used,No,07-12-2024,No,2918,Emergency,Evening,Friday
+E1738,X-Ray,ICU,O2738,P5738,13-02-2025 17.00,13-02-2025 20.00,Used,No,29-12-2024,Yes,1814,Scheduled,Evening,Thursday
+E1739,ECG,ICU,O2739,P5739,22-01-2025 16.00,22-01-2025 18.00,Idle,No,28-01-2025,No,4177,Scheduled,Evening,Wednesday
+E1740,X-Ray,Emergency,O2740,P5740,01-01-2025 9.00,01-01-2025 12.00,Idle,No,16-01-2025,No,2517,Scheduled,Morning,Wednesday
+E1741,ECG,Emergency,O2741,P5741,10-02-2025 23.00,11-02-2025 2.00,Used,No,03-12-2024,No,1728,Scheduled,Evening,Monday
+E1742,ECG,Cardiology,O2742,P5742,16-01-2025 17.00,16-01-2025 22.00,Used,Yes,19-12-2024,No,2934,Scheduled,Evening,Thursday
+E1743,CT Scan,ICU,O2743,P5743,29-01-2025 9.00,29-01-2025 12.00,Maintenance,Yes,10-12-2024,No,3368,Scheduled,Morning,Wednesday
+E1744,MRI,ICU,O2744,P5744,25-01-2025 7.00,25-01-2025 10.00,Idle,No,28-12-2024,No,3015,Scheduled,Morning,Saturday
+E1745,ECG,Radiology,O2745,P5745,07-01-2025 7.00,07-01-2025 11.00,Maintenance,No,29-12-2024,Yes,1938,Scheduled,Morning,Tuesday
+E1746,Ventilator,Cardiology,O2746,P5746,30-01-2025 23.00,31-01-2025 1.00,Idle,No,15-12-2024,No,4664,Emergency,Evening,Thursday
+E1747,Ultrasound,Radiology,O2747,P5747,14-02-2025 16.00,14-02-2025 20.00,Used,Yes,04-01-2025,No,4043,Scheduled,Evening,Friday
+E1748,MRI,ICU,O2748,P5748,19-02-2025 1.00,19-02-2025 5.00,Used,No,06-12-2024,No,3675,Scheduled,Night,Wednesday
+E1749,MRI,Cardiology,O2749,P5749,05-02-2025 18.00,05-02-2025 19.00,Used,No,12-12-2024,No,2281,Emergency,Evening,Wednesday
+E1750,MRI,Emergency,O2750,P5750,24-02-2025 20.00,25-02-2025 0.00,Used,No,16-01-2025,No,2763,Emergency,Evening,Monday
+E1751,CT Scan,Cardiology,O2751,,03-01-2025 1.00,03-01-2025 6.00,Used,No,07-01-2025,No,2469,Emergency,Night,Friday
+E1752,ECG,Emergency,O2752,P5752,28-01-2025 15.00,28-01-2025 20.00,Idle,No,13-12-2024,No,711,Scheduled,Evening,Tuesday
+E1753,CT Scan,Emergency,O2753,P5753,23-01-2025 2.00,23-01-2025 9.00,Used,No,29-12-2024,Yes,1007,Emergency,Night,Thursday
+E1754,ECG,Cardiology,O2754,P5754,15-02-2025 3.00,15-02-2025 4.00,Idle,No,19-12-2024,No,831,Emergency,Night,Saturday
+E1755,CT Scan,Emergency,O2755,P5755,19-02-2025 14.00,19-02-2025 21.00,Used,Yes,03-12-2024,No,1050,Emergency,Evening,Wednesday
+E1756,CT Scan,Radiology,O2756,P5756,21-02-2025 1.00,21-02-2025 8.00,Maintenance,No,08-12-2024,No,1441,Scheduled,Night,Friday
+E1757,Ultrasound,ICU,O2757,P5757,05-02-2025 16.00,05-02-2025 22.00,Used,No,08-12-2024,No,1227,Scheduled,Evening,Wednesday
+E1758,Ventilator,Emergency,O2758,P5758,07-01-2025 1.00,07-01-2025 3.00,Used,No,24-01-2025,No,3362,Scheduled,Night,Tuesday
+E1759,CT Scan,Radiology,O2759,P5759,08-02-2025 2.00,08-02-2025 4.00,Used,Yes,27-01-2025,No,3743,Scheduled,Night,Saturday
+E1760,Ultrasound,Emergency,O2760,P5760,11-02-2025 8.00,11-02-2025 12.00,Used,No,20-12-2024,No,1148,Scheduled,Morning,Tuesday
+E1761,X-Ray,ICU,O2761,P5761,02-03-2025 22.00,03-03-2025 2.00,Idle,No,16-01-2025,No,3237,Emergency,Evening,Sunday
+E1762,Ventilator,Radiology,O2762,P5762,11-01-2025 1.00,11-01-2025 7.00,Idle,Yes,04-12-2024,No,3247,Emergency,Night,Saturday
+E1763,CT Scan,ICU,O2763,P5763,25-01-2025 4.00,25-01-2025 8.00,Used,No,20-01-2025,No,1509,Emergency,Night,Saturday
+E1764,MRI,ICU,O2764,P5764,29-01-2025 14.00,29-01-2025 16.00,Used,No,21-12-2024,No,2050,Emergency,Evening,Wednesday
+E1765,X-Ray,Radiology,O2765,P5765,21-01-2025 2.00,21-01-2025 9.00,Used,No,03-12-2024,No,1303,Scheduled,Night,Tuesday
+E1766,X-Ray,Radiology,O2766,P5766,17-02-2025 3.00,17-02-2025 6.00,Used,No,14-01-2025,No,4580,Scheduled,Night,Monday
+E1767,Ultrasound,Radiology,O2767,P5767,22-02-2025 1.00,22-02-2025 6.00,Maintenance,Yes,08-12-2024,No,4809,Scheduled,Night,Saturday
+E1768,X-Ray,Cardiology,O2768,P5768,29-01-2025 0.00,29-01-2025 3.00,Idle,No,23-12-2024,No,4764,Scheduled,Night,Wednesday
+E1769,Ventilator,Radiology,O2769,P5769,27-01-2025 6.00,27-01-2025 9.00,Used,Yes,16-12-2024,No,3901,Scheduled,Morning,Monday
+E1770,CT Scan,Radiology,O2770,P5770,28-01-2025 12.00,28-01-2025 14.00,Idle,No,13-12-2024,No,4741,Emergency,Morning,Tuesday
+E1771,CT Scan,Radiology,O2771,P5771,28-01-2025 13.00,28-01-2025 16.00,Used,No,03-12-2024,No,3661,Emergency,Morning,Tuesday
+E1772,MRI,Radiology,O2772,P5772,02-03-2025 15.00,02-03-2025 21.00,Maintenance,No,17-01-2025,No,4655,Scheduled,Evening,Sunday
+E1773,Ultrasound,Emergency,O2773,P5773,03-02-2025 12.00,03-02-2025 13.00,Used,Yes,09-12-2024,No,1027,Scheduled,Morning,Monday
+E1774,MRI,Cardiology,O2774,P5774,18-01-2025 10.00,18-01-2025 14.00,Idle,No,29-01-2025,No,3798,Emergency,Morning,Saturday
+E1775,X-Ray,ICU,O2775,P5775,11-02-2025 3.00,11-02-2025 4.00,Idle,No,14-12-2024,No,1523,Scheduled,Night,Tuesday
+E1776,MRI,Radiology,O2776,P5776,03-03-2025 14.00,03-03-2025 21.00,Used,No,13-12-2024,No,4234,Scheduled,Evening,Monday
+E1777,Ventilator,Emergency,O2777,P5777,19-02-2025 7.00,19-02-2025 12.00,Idle,No,22-01-2025,No,932,Scheduled,Morning,Wednesday
+E1778,CT Scan,Emergency,O2778,P5778,28-01-2025 1.00,28-01-2025 5.00,Used,No,26-01-2025,No,1676,Scheduled,Night,Tuesday
+E1779,X-Ray,Emergency,O2779,P5779,10-02-2025 8.00,10-02-2025 11.00,Used,No,07-12-2024,Yes,900,Scheduled,Morning,Monday
+E1780,MRI,ICU,O2780,P5780,25-01-2025 13.00,25-01-2025 18.00,Used,No,15-12-2024,No,2604,Emergency,Morning,Saturday
+E1781,Ultrasound,Radiology,O2781,P5781,15-02-2025 20.00,16-02-2025 0.00,Maintenance,No,07-12-2024,No,3550,Scheduled,Evening,Saturday
+E1782,Ventilator,Cardiology,O2782,P5782,22-01-2025 4.00,22-01-2025 10.00,Idle,Yes,07-01-2025,Yes,2733,Emergency,Night,Wednesday
+E1783,Ventilator,Cardiology,O2783,P5783,19-01-2025 8.00,19-01-2025 14.00,Idle,No,03-01-2025,No,2945,Scheduled,Morning,Sunday
+E1784,MRI,Emergency,O2784,,23-02-2025 5.00,23-02-2025 11.00,Idle,No,10-01-2025,No,3335,Scheduled,Night,Sunday
+E1785,CT Scan,ICU,O2785,P5785,08-02-2025 8.00,08-02-2025 14.00,Used,No,22-12-2024,No,3013,Scheduled,Morning,Saturday
+E1786,MRI,ICU,O2786,P5786,02-02-2025 1.00,02-02-2025 4.00,Maintenance,No,24-12-2024,No,2273,Scheduled,Night,Sunday
+E1787,X-Ray,ICU,O2787,P5787,25-02-2025 23.00,26-02-2025 0.00,Used,Yes,18-01-2025,No,1596,Scheduled,Evening,Tuesday
+E1788,MRI,Cardiology,O2788,P5788,11-01-2025 22.00,12-01-2025 2.00,Used,No,06-01-2025,No,1428,Scheduled,Evening,Saturday
+E1789,Ventilator,Emergency,O2789,P5789,28-02-2025 5.00,28-02-2025 8.00,Used,Yes,13-01-2025,No,2451,Scheduled,Night,Friday
+E1790,MRI,Radiology,O2790,P5790,27-01-2025 12.00,27-01-2025 18.00,Idle,,01-12-2024,No,2473,Scheduled,Morning,Monday
+E1791,CT Scan,Cardiology,O2791,P5791,19-02-2025 14.00,19-02-2025 21.00,Idle,No,10-12-2024,No,2054,Scheduled,Evening,Wednesday
+E1792,Ultrasound,Emergency,O2792,P5792,20-01-2025 2.00,20-01-2025 3.00,Used,Yes,12-01-2025,No,3278,Emergency,Night,Monday
+E1793,ECG,Emergency,O2793,P5793,11-02-2025 14.00,11-02-2025 21.00,Used,No,16-12-2024,No,4921,Scheduled,Evening,Tuesday
+E1794,MRI,Radiology,O2794,P5794,24-02-2025 7.00,24-02-2025 12.00,Idle,,15-01-2025,No,1494,Scheduled,Morning,Monday
+E1795,CT Scan,Radiology,O2795,P5795,30-01-2025 3.00,30-01-2025 10.00,Used,No,08-12-2024,No,1112,Emergency,Night,Thursday
+E1796,CT Scan,Radiology,O2796,P5796,13-01-2025 13.00,13-01-2025 18.00,Idle,,25-01-2025,No,3093,Emergency,Morning,Monday
+E1797,Ultrasound,ICU,O2797,,21-02-2025 17.00,21-02-2025 22.00,Maintenance,Yes,18-01-2025,No,1095,Scheduled,Evening,Friday
+E1798,Ventilator,Radiology,O2798,P5798,16-02-2025 21.00,17-02-2025 3.00,Used,No,25-12-2024,No,1341,Emergency,Evening,Sunday
+E1799,CT Scan,Emergency,O2799,P5799,24-01-2025 1.00,24-01-2025 6.00,Used,No,19-01-2025,No,4939,Scheduled,Night,Friday
+E1800,CT Scan,Radiology,O2800,P5800,12-01-2025 23.00,13-01-2025 1.00,Idle,No,12-12-2024,No,1358,Scheduled,Evening,Sunday
+E1801,CT Scan,Emergency,O2801,P5801,19-02-2025 14.00,19-02-2025 18.00,Idle,Yes,25-12-2024,No,944,Scheduled,Evening,Wednesday
+E1802,CT Scan,Cardiology,O2802,P5802,26-01-2025 20.00,27-01-2025 0.00,Used,No,17-12-2024,No,2288,Emergency,Evening,Sunday
+E1803,X-Ray,ICU,O2803,P5803,11-02-2025 21.00,12-02-2025 3.00,Maintenance,No,29-01-2025,No,4817,Scheduled,Evening,Tuesday
+E1804,X-Ray,Cardiology,O2804,P5804,02-01-2025 11.00,02-01-2025 13.00,Used,No,26-12-2024,No,3954,Scheduled,Morning,Thursday
+E1805,Ventilator,Cardiology,O2805,P5805,31-01-2025 23.00,01-02-2025 6.00,Used,No,15-01-2025,No,4452,Scheduled,Evening,Friday
+E1806,MRI,Emergency,O2806,P5806,15-01-2025 16.00,15-01-2025 19.00,Idle,No,17-01-2025,No,1530,Scheduled,Evening,Wednesday
+E1807,CT Scan,Cardiology,O2807,P5807,04-01-2025 0.00,04-01-2025 7.00,Idle,No,14-12-2024,No,1795,Scheduled,Night,Saturday
+E1808,Ultrasound,Emergency,O2808,P5808,27-01-2025 23.00,28-01-2025 2.00,Used,No,10-01-2025,Yes,2563,Scheduled,Evening,Monday
+E1809,MRI,Radiology,O2809,P5809,27-02-2025 8.00,27-02-2025 13.00,Idle,No,05-01-2025,No,1947,Scheduled,Morning,Thursday
+E1810,Ultrasound,Radiology,O2810,,15-02-2025 13.00,15-02-2025 14.00,Used,No,26-01-2025,No,2545,Scheduled,Morning,Saturday
+E1811,MRI,Emergency,O2811,P5811,18-01-2025 16.00,18-01-2025 19.00,Used,No,23-12-2024,No,3350,Scheduled,Evening,Saturday
+E1812,Ventilator,Radiology,O2812,P5812,11-02-2025 14.00,11-02-2025 15.00,Used,No,12-01-2025,No,4324,Scheduled,Evening,Tuesday
+E1813,CT Scan,ICU,O2813,P5813,30-01-2025 11.00,30-01-2025 15.00,Idle,No,06-12-2024,Yes,2568,Emergency,Morning,Thursday
+E1814,CT Scan,Cardiology,O2814,P5814,24-01-2025 8.00,24-01-2025 9.00,Used,Yes,16-01-2025,No,4261,Emergency,Morning,Friday
+E1815,ECG,ICU,O2815,P5815,04-02-2025 11.00,04-02-2025 15.00,Used,No,05-12-2024,No,2775,Scheduled,Morning,Tuesday
+E1816,Ultrasound,Cardiology,O2816,P5816,09-02-2025 19.00,09-02-2025 21.00,Used,No,12-01-2025,No,2308,Scheduled,Evening,Sunday
+E1817,MRI,Radiology,O2817,P5817,22-01-2025 12.00,22-01-2025 14.00,Idle,No,25-12-2024,No,1811,Scheduled,Morning,Wednesday
+E1818,MRI,ICU,O2818,P5818,18-01-2025 19.00,19-01-2025 1.00,Used,No,18-12-2024,No,4555,Scheduled,Evening,Saturday
+E1819,X-Ray,Radiology,O2819,P5819,07-01-2025 15.00,07-01-2025 21.00,Idle,No,13-12-2024,No,2951,Emergency,Evening,Tuesday
+E1820,ECG,Cardiology,O2820,P5820,07-01-2025 4.00,07-01-2025 9.00,Used,No,12-01-2025,No,1589,Scheduled,Night,Tuesday
+E1821,X-Ray,Emergency,O2821,P5821,02-02-2025 7.00,02-02-2025 10.00,Used,No,14-12-2024,No,2172,Emergency,Morning,Sunday
+E1822,X-Ray,Emergency,O2822,P5822,22-02-2025 5.00,22-02-2025 10.00,Used,No,28-12-2024,No,4175,Scheduled,Night,Saturday
+E1823,X-Ray,ICU,O2823,P5823,03-01-2025 18.00,03-01-2025 22.00,Idle,No,18-12-2024,No,4854,Scheduled,Evening,Friday
+E1824,Ultrasound,Radiology,O2824,P5824,12-02-2025 5.00,12-02-2025 10.00,Maintenance,No,28-01-2025,No,2503,Scheduled,Night,Wednesday
+E1825,Ultrasound,Radiology,O2825,P5825,16-01-2025 20.00,16-01-2025 21.00,Used,No,29-01-2025,No,4698,Scheduled,Evening,Thursday
+E1826,Ventilator,ICU,O2826,P5826,03-01-2025 9.00,03-01-2025 13.00,Used,No,26-01-2025,Yes,1624,Scheduled,Morning,Friday
+E1827,Ventilator,Emergency,O2827,P5827,23-02-2025 10.00,23-02-2025 16.00,Used,No,28-12-2024,Yes,1721,Scheduled,Morning,Sunday
+E1828,X-Ray,Cardiology,O2828,P5828,15-01-2025 5.00,15-01-2025 7.00,Used,Yes,20-01-2025,No,3360,Emergency,Night,Wednesday
+E1829,ECG,ICU,O2829,P5829,18-02-2025 1.00,18-02-2025 7.00,Used,No,25-01-2025,No,2773,Emergency,Night,Tuesday
+E1830,MRI,Cardiology,O2830,P5830,31-01-2025 6.00,31-01-2025 9.00,Used,Yes,27-12-2024,Yes,3490,Scheduled,Morning,Friday
+E1831,Ultrasound,Emergency,O2831,P5831,19-02-2025 19.00,19-02-2025 23.00,Used,No,01-01-2025,No,3010,Scheduled,Evening,Wednesday
+E1832,ECG,Radiology,O2832,P5832,02-02-2025 1.00,02-02-2025 5.00,Used,No,16-01-2025,No,736,Scheduled,Night,Sunday
+E1833,CT Scan,Emergency,O2833,P5833,26-01-2025 13.00,26-01-2025 14.00,Used,No,09-12-2024,Yes,1644,Scheduled,Morning,Sunday
+E1834,Ultrasound,ICU,O2834,P5834,21-02-2025 8.00,21-02-2025 11.00,Idle,No,09-01-2025,No,3753,Scheduled,Morning,Friday
+E1835,Ultrasound,Radiology,O2835,P5835,15-01-2025 17.00,15-01-2025 19.00,Used,No,01-01-2025,No,4282,Scheduled,Evening,Wednesday
+E1836,Ventilator,ICU,O2836,P5836,04-03-2025 6.00,04-03-2025 13.00,Used,,20-12-2024,No,1266,Scheduled,Morning,Tuesday
+E1837,MRI,ICU,O2837,P5837,05-01-2025 19.00,05-01-2025 23.00,Idle,No,28-12-2024,No,3181,Emergency,Evening,Sunday
+E1838,MRI,Emergency,O2838,P5838,23-02-2025 15.00,23-02-2025 19.00,Used,No,02-01-2025,No,3165,Emergency,Evening,Sunday
+E1839,CT Scan,ICU,O2839,P5839,28-01-2025 13.00,28-01-2025 14.00,Used,No,04-12-2024,No,2259,Scheduled,Morning,Tuesday
+E1840,CT Scan,Emergency,O2840,P5840,03-03-2025 1.00,03-03-2025 6.00,Used,No,15-01-2025,No,3991,Emergency,Night,Monday
+E1841,Ultrasound,Radiology,O2841,P5841,19-01-2025 20.00,19-01-2025 22.00,Used,No,26-01-2025,No,3315,Emergency,Evening,Sunday
+E1842,X-Ray,Emergency,O2842,P5842,12-01-2025 22.00,13-01-2025 4.00,Used,No,03-01-2025,No,4013,Emergency,Evening,Sunday
+E1843,Ventilator,Radiology,O2843,P5843,25-02-2025 6.00,25-02-2025 9.00,Used,Yes,17-01-2025,Yes,995,Scheduled,Morning,Tuesday
+E1844,Ventilator,Emergency,O2844,P5844,12-02-2025 8.00,12-02-2025 12.00,Maintenance,No,03-12-2024,Yes,3680,Scheduled,Morning,Wednesday
+E1845,Ultrasound,Cardiology,O2845,P5845,13-01-2025 22.00,14-01-2025 2.00,Used,No,26-12-2024,Yes,4430,Scheduled,Evening,Monday
+E1846,ECG,Cardiology,O2846,P5846,09-01-2025 15.00,09-01-2025 21.00,Used,No,08-12-2024,No,2572,Scheduled,Evening,Thursday
+E1847,X-Ray,ICU,O2847,,26-01-2025 17.00,26-01-2025 19.00,Used,Yes,06-12-2024,No,837,Scheduled,Evening,Sunday
+E1848,Ultrasound,Emergency,O2848,P5848,19-01-2025 13.00,19-01-2025 18.00,Used,No,16-12-2024,No,4449,Scheduled,Morning,Sunday
+E1849,X-Ray,Emergency,O2849,,28-01-2025 21.00,29-01-2025 1.00,Used,Yes,24-12-2024,No,3608,Emergency,Evening,Tuesday
+E1850,X-Ray,Radiology,O2850,P5850,27-01-2025 8.00,27-01-2025 10.00,Idle,No,17-01-2025,No,2317,Emergency,Morning,Monday
+E1851,X-Ray,ICU,O2851,P5851,03-01-2025 6.00,03-01-2025 12.00,Used,Yes,08-01-2025,No,636,Scheduled,Morning,Friday
+E1852,Ultrasound,Emergency,O2852,P5852,07-02-2025 23.00,08-02-2025 0.00,Used,,30-12-2024,No,3055,Scheduled,Evening,Friday
+E1853,Ventilator,ICU,O2853,P5853,13-02-2025 3.00,13-02-2025 8.00,Used,No,14-01-2025,No,4915,Scheduled,Night,Thursday
+E1854,Ventilator,Cardiology,O2854,P5854,28-01-2025 8.00,28-01-2025 11.00,Used,No,13-12-2024,No,1415,Scheduled,Morning,Tuesday
+E1855,X-Ray,Emergency,O2855,P5855,01-03-2025 7.00,01-03-2025 11.00,Maintenance,Yes,05-12-2024,No,4038,Scheduled,Morning,Saturday
+E1856,ECG,Emergency,O2856,P5856,10-02-2025 19.00,10-02-2025 21.00,Used,Yes,25-12-2024,No,2600,Emergency,Evening,Monday
+E1857,MRI,ICU,O2857,P5857,22-01-2025 10.00,22-01-2025 11.00,Used,No,20-12-2024,No,3407,Emergency,Morning,Wednesday
+E1858,Ultrasound,Emergency,O2858,P5858,10-01-2025 20.00,10-01-2025 23.00,Used,No,23-01-2025,No,3414,Emergency,Evening,Friday
+E1859,MRI,ICU,O2859,P5859,24-02-2025 6.00,24-02-2025 13.00,Maintenance,No,18-12-2024,No,2482,Emergency,Morning,Monday
+E1860,ECG,Emergency,O2860,P5860,15-01-2025 11.00,15-01-2025 13.00,Used,Yes,16-01-2025,No,4370,Scheduled,Morning,Wednesday
+E1861,Ultrasound,Radiology,O2861,P5861,27-01-2025 2.00,27-01-2025 4.00,Used,No,18-12-2024,No,4067,Emergency,Night,Monday
+E1862,X-Ray,ICU,O2862,P5862,16-02-2025 23.00,17-02-2025 2.00,Idle,Yes,02-12-2024,No,1498,Emergency,Evening,Sunday
+E1863,Ventilator,Emergency,O2863,P5863,27-01-2025 5.00,27-01-2025 6.00,Idle,Yes,10-12-2024,Yes,2647,Scheduled,Night,Monday
+E1864,MRI,Cardiology,O2864,P5864,22-02-2025 23.00,23-02-2025 6.00,Used,No,24-01-2025,No,895,Scheduled,Evening,Saturday
+E1865,CT Scan,Emergency,O2865,P5865,16-01-2025 3.00,16-01-2025 9.00,Used,No,14-01-2025,Yes,4098,Emergency,Night,Thursday
+E1866,CT Scan,Cardiology,O2866,P5866,14-01-2025 8.00,14-01-2025 9.00,Used,Yes,19-01-2025,No,1438,Emergency,Morning,Tuesday
+E1867,ECG,Cardiology,O2867,P5867,12-01-2025 21.00,13-01-2025 2.00,Used,Yes,16-01-2025,No,2136,Scheduled,Evening,Sunday
+E1868,X-Ray,Radiology,O2868,P5868,07-01-2025 4.00,07-01-2025 8.00,Used,Yes,12-12-2024,No,3224,Scheduled,Night,Tuesday
+E1869,MRI,ICU,O2869,,16-02-2025 3.00,16-02-2025 6.00,Used,No,16-01-2025,No,3010,Scheduled,Night,Sunday
+E1870,X-Ray,Emergency,O2870,P5870,17-01-2025 21.00,18-01-2025 3.00,Used,No,13-12-2024,No,2149,Scheduled,Evening,Friday
+E1871,MRI,Radiology,O2871,P5871,10-02-2025 17.00,11-02-2025 0.00,Used,Yes,19-01-2025,No,4190,Scheduled,Evening,Monday
+E1872,ECG,Emergency,O2872,P5872,19-01-2025 23.00,20-01-2025 2.00,Used,Yes,16-01-2025,No,3935,Scheduled,Evening,Sunday
+E1873,ECG,Cardiology,O2873,P5873,03-02-2025 7.00,03-02-2025 10.00,Maintenance,No,26-01-2025,No,3701,Scheduled,Morning,Monday
+E1874,CT Scan,ICU,O2874,P5874,19-02-2025 8.00,19-02-2025 9.00,Used,No,24-01-2025,No,4679,Scheduled,Morning,Wednesday
+E1875,X-Ray,Emergency,O2875,,12-02-2025 4.00,12-02-2025 8.00,Used,No,11-12-2024,No,4866,Emergency,Night,Wednesday
+E1876,Ultrasound,Emergency,O2876,P5876,02-02-2025 15.00,02-02-2025 20.00,Used,Yes,19-12-2024,No,2791,Scheduled,Evening,Sunday
+E1877,CT Scan,Cardiology,O2877,P5877,20-01-2025 3.00,20-01-2025 5.00,Maintenance,,04-01-2025,No,4983,Scheduled,Night,Monday
+E1878,X-Ray,Emergency,O2878,P5878,31-01-2025 17.00,31-01-2025 19.00,Used,No,08-01-2025,No,713,Emergency,Evening,Friday
+E1879,CT Scan,Emergency,O2879,,22-01-2025 4.00,22-01-2025 7.00,Used,No,22-01-2025,No,3737,Scheduled,Night,Wednesday
+E1880,Ultrasound,Cardiology,O2880,,21-01-2025 0.00,21-01-2025 4.00,Used,Yes,26-12-2024,Yes,4362,Emergency,Night,Tuesday
+E1881,Ventilator,Radiology,O2881,P5881,05-01-2025 17.00,06-01-2025 0.00,Used,No,15-01-2025,Yes,558,Scheduled,Evening,Sunday
+E1882,Ventilator,Cardiology,O2882,P5882,01-02-2025 4.00,01-02-2025 11.00,Used,Yes,14-12-2024,No,3430,Scheduled,Night,Saturday
+E1883,Ventilator,Radiology,O2883,P5883,16-01-2025 0.00,16-01-2025 6.00,Used,No,23-01-2025,No,3471,Scheduled,Night,Thursday
+E1884,Ventilator,ICU,O2884,P5884,15-01-2025 4.00,15-01-2025 5.00,Used,No,14-01-2025,No,2027,Scheduled,Night,Wednesday
+E1885,MRI,Radiology,O2885,P5885,02-02-2025 1.00,02-02-2025 5.00,Maintenance,Yes,13-01-2025,No,622,Emergency,Night,Sunday
+E1886,Ventilator,Radiology,O2886,P5886,01-02-2025 16.00,01-02-2025 20.00,Used,No,24-12-2024,No,4219,Scheduled,Evening,Saturday
+E1887,Ultrasound,ICU,O2887,P5887,10-02-2025 8.00,10-02-2025 9.00,Used,No,10-01-2025,No,1936,Scheduled,Morning,Monday
+E1888,ECG,Radiology,O2888,P5888,19-01-2025 16.00,19-01-2025 23.00,Idle,No,01-12-2024,No,1662,Scheduled,Evening,Sunday
+E1889,ECG,Cardiology,O2889,P5889,04-02-2025 18.00,05-02-2025 1.00,Used,No,20-01-2025,No,3800,Scheduled,Evening,Tuesday
+E1890,MRI,Radiology,O2890,P5890,20-02-2025 3.00,20-02-2025 10.00,Used,No,12-01-2025,No,3845,Scheduled,Night,Thursday
+E1891,Ventilator,ICU,O2891,P5891,01-03-2025 14.00,01-03-2025 17.00,Used,No,24-01-2025,No,2986,Scheduled,Evening,Saturday
+E1892,Ventilator,Cardiology,O2892,P5892,20-02-2025 19.00,20-02-2025 23.00,Used,No,22-12-2024,No,1061,Emergency,Evening,Thursday
+E1893,Ventilator,ICU,O2893,P5893,04-03-2025 1.00,04-03-2025 3.00,Idle,No,23-12-2024,No,4481,Scheduled,Night,Tuesday
+E1894,CT Scan,ICU,O2894,P5894,13-01-2025 22.00,13-01-2025 23.00,Maintenance,No,25-01-2025,No,2237,Scheduled,Evening,Monday
+E1895,X-Ray,Emergency,O2895,P5895,11-01-2025 21.00,12-01-2025 4.00,Used,No,23-01-2025,No,1404,Scheduled,Evening,Saturday
+E1896,CT Scan,Emergency,O2896,P5896,02-03-2025 2.00,02-03-2025 8.00,Used,Yes,19-12-2024,No,4054,Emergency,Night,Sunday
+E1897,X-Ray,ICU,O2897,P5897,17-01-2025 21.00,18-01-2025 4.00,Maintenance,No,18-12-2024,Yes,4990,Emergency,Evening,Friday
+E1898,Ventilator,ICU,O2898,P5898,06-01-2025 22.00,07-01-2025 5.00,Idle,No,12-12-2024,No,2226,Scheduled,Evening,Monday
+E1899,Ventilator,ICU,O2899,P5899,15-01-2025 5.00,15-01-2025 10.00,Idle,,24-01-2025,No,3423,Scheduled,Night,Wednesday
